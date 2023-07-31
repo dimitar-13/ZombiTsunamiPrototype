@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 422099626219164323}
   - component: {fileID: 6194846116068443674}
   - component: {fileID: 6582088432842879678}
+  - component: {fileID: 1271756549555849660}
   m_Layer: 0
   m_Name: Bus
   m_TagString: Untagged
@@ -124,4 +125,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741d71f2407ed5e4c87b36ae3fe849ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+--- !u!114 &1271756549555849660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113172385313788916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181ac43d9fd09e041a2e8c4c8019d538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountToBreak: 2
+  zombiesTouching: 0
