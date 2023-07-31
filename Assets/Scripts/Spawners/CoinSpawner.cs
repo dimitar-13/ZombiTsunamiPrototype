@@ -14,6 +14,15 @@ public class CoinSpawner : MonoBehaviour, ISpawner
     private GameObject coinBlock;
 
 
+    private float objectLenght;
+
+    public float ObjectLenght
+    {
+        get { return objectLenght; }
+        set { objectLenght = value; }
+    }
+
+
 
     public GameObject SpawnRandomObject(float groundTopCordinates, float xCordinate)
     {
@@ -24,14 +33,15 @@ public class CoinSpawner : MonoBehaviour, ISpawner
 
         CoinBlock CoinBlock = Instantiate(coinBlock, new Vector2(xCordinate, offset), Quaternion.identity).GetComponent<CoinBlock>();
 
-        List<Coin> coins = new List<Coin>();
+        List<GameObject> coins = new List<GameObject>();
         for (int i = 0; i < 15; i++)
         {
-            coins.Add(Instantiate(coin,CoinBlock.transform).GetComponent<Coin>());
+            coins.Add(Instantiate(coin,CoinBlock.transform));
         }
 
 
         CoinHelperClass.AssembleCoinRadomShape(groundTopCordinates, xCordinate, coins.ToArray());
+        objectLenght = CoinHelperClass.GetCoinLenght(coins.ToArray());
 
         return CoinBlock.gameObject;
     }

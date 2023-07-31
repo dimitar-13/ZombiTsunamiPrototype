@@ -11,6 +11,13 @@ public class CarSpanwer : MonoBehaviour,ISpawner
         get { return carAssets; }
         set { carAssets = value; }
     }
+    private float objectLenght;
+
+    public float ObjectLenght
+    {
+        get { return objectLenght; }
+        set { objectLenght = value; }
+    }
 
 
 
@@ -20,12 +27,11 @@ public class CarSpanwer : MonoBehaviour,ISpawner
         if (assetToSpawn != null)
         {
             var instance = Instantiate(assetToSpawn);
-
-            var topGround_y = 0f;
             if (instance.TryGetComponent<BoxCollider2D>(out BoxCollider2D componet))
             {
-                topGround_y = groundTopCordinates + (componet.bounds.extents.y);
+                var topGround_y = groundTopCordinates + (componet.bounds.extents.y);
                 instance.transform.position = new Vector3(xCordinate, topGround_y, 0);
+                objectLenght = instance.transform.localScale.x;
             }
             else
             {
