@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class CoinShapeGenerator 
 {
-  public static void Triangle(float groundTopCordinates, float xCordinate,Coin [] coins)
+  public static void Triangle(float groundTopCordinates, float xCordinate, GameObject[] coins)
     {
         int coiniD = 0;
 
@@ -18,7 +18,8 @@ public static class CoinShapeGenerator
             groundTopCordinates += 1f;
         }
     }
-    public static void UpsideDownTriangle(float groundTopCordinates, float xCordinate, Coin[] coins)
+
+    public static void UpsideDownTriangle(float groundTopCordinates, float xCordinate, GameObject[] coins)
     {
         var offset = groundTopCordinates + 2f;
         int coiniD = 0;
@@ -33,7 +34,7 @@ public static class CoinShapeGenerator
             offset += 1f;
         }
     }
-    public static void SmallSquare(float groundTopCordinates, float xCordinate, Coin[] coins,int lenght)
+    public static void SmallSquare(float groundTopCordinates, float xCordinate, GameObject[] coins,int lenght)
     {
         var offset = groundTopCordinates + 2f;
         int coiniD = 0;
@@ -47,7 +48,7 @@ public static class CoinShapeGenerator
             offset += 1f;
         }
     }
-    public static void Circle(float groundTopCordinates, float xCordinate, Coin[] coins)
+    public static void Circle(float groundTopCordinates, float xCordinate, GameObject[] coins)
     {
         int coiniD = 0;
         float radius = groundTopCordinates +  3f;

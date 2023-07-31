@@ -6,7 +6,7 @@ public static class CoinHelperClass
 {
     private static int lastShape;
 
-    public static void AssembleCoinRadomShape(float groundTopCordinates, float xCordinate, Coin[] coins )
+    public static void AssembleCoinRadomShape(float groundTopCordinates, float xCordinate, GameObject[] coins )
     {
 
         switch(coins.Length)
@@ -24,10 +24,7 @@ public static class CoinHelperClass
             case 4:
 
                 break;
-        }
-
-
-       
+        }     
     }
 
 
@@ -60,5 +57,27 @@ public static class CoinHelperClass
         lastShape = RandomShape;
         return CoinToSpawnCount;
     }
+
+    public static float GetCoinLenght(GameObject[] coins)
+    {
+        float maxPosX = coins[0].transform.position.x;
+        float minPosX = coins[0].transform.position.x;
+
+        for (int i = 0; i < coins.Length; i++)
+        {
+            if(coins[i].transform.position.x > maxPosX)
+            {
+                maxPosX = coins[i].transform.position.x;
+            }
+            if (coins[i].transform.position.x < minPosX)
+            {
+                minPosX = coins[i].transform.position.x;
+            }
+        }
+
+        return maxPosX - minPosX;
+
+    }
+
 
 }

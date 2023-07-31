@@ -13,7 +13,6 @@ public class EnviromentBlock :MonoBehaviour
     private void Start()
     {
         SpawnRandomObjecstOnGround();
-
     }
 
     public void OnInitit(ISpawner[] spawners)
@@ -28,13 +27,14 @@ public class EnviromentBlock :MonoBehaviour
         float groundMaxPos =0f;
         float groundMinPos =0f;
 
-        amountToSpawn = Random.Range(3, GetMaxAmountToSpawn());
+        amountToSpawn = GetSpawnAmount();
 
 
         GroundSpawner.GetGroundMaxAndMinCordinate(this.gameObject, ref groundMaxPos, ref groundMinPos);
 
 
         float Xpossition = groundMinPos + 5f;
+        float totalSpace = 0f;
         for (int i = 0; i < amountToSpawn; i++)
         {
             randomObjIndex = UnityEngine.Random.Range(0, spawners.Length);
@@ -45,17 +45,30 @@ public class EnviromentBlock :MonoBehaviour
 
             }
               var objs = spawners.ElementAt(randomObjIndex).SpawnRandomObject(GroundSpawner.GetGroundTopCordinates(this.gameObject), Xpossition);
-                objsOnGround.Add(objs);          
+                objsOnGround.Add(objs);
+            totalSpace += spawners.ElementAt(randomObjIndex).ObjectLenght;
+            if(totalSpace >= (groundMaxPos - 5f))
+            {
+                return;
+            }
            lastIndex = randomObjIndex;
             Xpossition += objectsOffset;
         }
     }
 
-    private int GetMaxAmountToSpawn()
+    private int GetSpawnAmount()
     {
-        return (int)(this.transform.localScale.x / objectsOffset);
+        int maxAmount = (int)(this.transform.localScale.x / objectsOffset);
+
+
+        if(maxAmount >2)
+        {
+            return Random.Range(maxAmount -1, maxAmount);
+        }
+        else
+        {
+            return Random.Range(0, maxAmount);
+        }
+
     }
-
-    //TODO: Logic for calculating max and min objects based on the ground width can use objectsOffset variable
-
 }
