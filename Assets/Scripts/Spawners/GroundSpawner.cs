@@ -32,7 +32,7 @@ public class GroundSpawner : MonoBehaviour
         float newGroundBounds = groundColider.bounds.extents.x - groundColider.offset.x;
 
 
-        instance.transform.position = new Vector2((currentGroundBounds + Random.Range(4f,5f))+ newGroundBounds, Random.Range(-6.16f, -3.76f));
+        instance.transform.position = new Vector2((currentGroundBounds + Random.Range(4f,5f))+ newGroundBounds, Random.Range(-6.16f, -4.76f));
         CurrentGround = instance;
     }
 

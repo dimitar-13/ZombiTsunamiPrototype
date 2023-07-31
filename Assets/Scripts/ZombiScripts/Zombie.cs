@@ -32,6 +32,10 @@ public class Zombie : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isOnGround = true;
+        if (collision.gameObject.TryGetComponent<IInteractable>(out IInteractable interactable))
+        {
+            interactable.Interact(this);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -39,6 +43,15 @@ public class Zombie : MonoBehaviour
         if(collision.transform.tag == this.transform.tag)
         {
             Physics2D.IgnoreCollision(collision.collider,this.GetComponent<BoxCollider2D>());
+        }
+        else if (collision.gameObject.TryGetComponent<IInteractable>(out IInteractable interactable))
+        {
+            if (interactable is Car car)
+            {
+                var Car = (Car)interactable;
+                Car.OnZombieLeave();
+            }
+            
         }
         else
         {
