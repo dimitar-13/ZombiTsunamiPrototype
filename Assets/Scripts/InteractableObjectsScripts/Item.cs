@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using ZombieTsunami.Core;
 
-public class Item : IInteractable
+namespace ZombieTsunami.InteractableObjectsScripts
 {
-    public PickupPower currentItemPickupPower;
-
-
-    public void Interact(Zombie zombie)
+    public class Item : IInteractable
     {
-       Debug.Log(currentItemPickupPower.ToString());
+        public PickupPower currentItemPickupPower;
+
+
+        public void Interact(Zombie zombie)
+        {
+            Debug.Log(currentItemPickupPower.ToString());
+        }
+
     }
 
-}
- 
-public enum PickupPower
-{
-    DragonPower,
-    UfoPower,
-    NinjaPower
+    public enum PickupPower
+    {
+        DragonPower,
+        UfoPower,
+        NinjaPower
+    }
 }

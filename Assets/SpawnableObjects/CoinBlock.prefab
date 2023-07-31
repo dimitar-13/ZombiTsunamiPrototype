@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-1483944426970443394
 MonoBehaviour:
@@ -42,7 +42,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 283346396198333448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e248da7746d00419ba460858068009, type: 3}
+  m_Script: {fileID: 11500000, guid: c943e7ba4a0371743adbb5957bea516d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5676745245898807364
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 283346396198333448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741d71f2407ed5e4c87b36ae3fe849ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 85be2777a1409764a8ad15ed4562626d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  coinList: []

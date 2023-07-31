@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ZombieTsunami.Core;
 
-public class KillZone : MonoBehaviour, IInteractable
+namespace ZombieTsunami.InteractableObjectsScripts
 {
-    public void Interact(Zombie zombie)
+    public class KillZone : MonoBehaviour, IInteractable
     {
-        Events.OnZombieKilled?.Invoke(zombie);
+        public void Interact(Zombie zombie)
+        {
+            Events.OnZombieKilled?.Invoke(zombie);
+        }
     }
 }

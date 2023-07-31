@@ -4,14 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using ZombieTsunami.Core;
 
-[CreateAssetMenu(menuName = "ZombiManager")]
-public class ZombiManager : ScriptableObject
+namespace ZombieTsunami.ZombiScripts
 {
-    public  List<Zombie> Zombies;
-
-    private void OnDisable()
+    [CreateAssetMenu(menuName = "ZombiManager")]
+    public class ZombiManager : ScriptableObject
     {
-        Zombies = null;
+        public List<Zombie> Zombies;
+
+        private void OnDisable()
+        {
+            Zombies = null;
+        }
     }
 }
