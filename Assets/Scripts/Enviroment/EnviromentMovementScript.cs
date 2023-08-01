@@ -6,6 +6,7 @@ namespace ZombieTsunami.Enviroment
 {
     public class EnviromentMovementScript : MonoBehaviour
     {
+        [SerializeField]
         private float movementSpeed = 5f;
         public Action OnGroundDeleted;
 

@@ -14,7 +14,6 @@ namespace ZombieTsunami.Enviroment
         //min y -3.6
         public void SpawnRandomGroundAsset()
         {
-            int randomIndex = Random.Range(0, GroundAssets.Length);
             //we need to get a reference to the Instantiated onbject so that we can get the correct value for the Box collider bounds
             //for some reason if its a prefab you cant do it might be beause it doesnt exist in the scene
 
@@ -22,17 +21,19 @@ namespace ZombieTsunami.Enviroment
 
             //var instance = Instantiate(groundGenerator.GenerateGround(), new Vector3(Constants.SPAWN_X_POSSITION, 0f), Quaternion.identity, this.gameObject.transform);
             var instance = groundGenerator.GenerateGround();
+
+            float currentGroundBounds = SpawnerHelper.GetMaxBounOfObjX(CurrentGround);
+
             instance.gameObject.transform.position = new Vector3(Constants.SPAWN_X_POSSITION, 0f);
 
-            BoxCollider2D groundColider = instance.GetComponent<BoxCollider2D>();
+           // BoxCollider2D groundColider = instance.GetComponent<BoxCollider2D>();
 
 
-            float currentGroundBounds = CurrentGround.GetComponent<BoxCollider2D>().bounds.max.x;
             //since some of the box coliders does use offset to be able to get the exact bound location we need to subtract the offset of the colider
-            float newGroundBounds = groundColider.bounds.extents.x - groundColider.offset.x;
+            float newGroundBounds = SpawnerHelper.GetMinBounOfObjX(instance);
 
 
-            instance.transform.position = new Vector2((currentGroundBounds + Random.Range(4f, 5f)) + newGroundBounds, Random.Range(-6.16f, -4.76f));
+            instance.transform.position = new Vector2(currentGroundBounds +  5f + newGroundBounds, Random.Range(-6.16f, -4.76f));
             CurrentGround = instance;
         }
 
@@ -60,9 +61,7 @@ namespace ZombieTsunami.Enviroment
 
         public static float GetGroundTopCordinates(GameObject CurrentGround)
         {
-            BoxCollider2D groundColider = CurrentGround.GetComponent<BoxCollider2D>();
-
-            return CurrentGround.transform.position.y + groundColider.bounds.extents.y;
+            return CurrentGround.transform.position.y + SpawnerHelper.GetExtentsOfObj(CurrentGround);
         }
 
 

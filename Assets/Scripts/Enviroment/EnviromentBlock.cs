@@ -47,6 +47,10 @@ namespace ZombieTsunami.Enviroment
 
                 }
                 var objs = spawners.ElementAt(randomObjIndex).SpawnRandomObject(GroundSpawner.GetGroundTopCordinates(this.gameObject), Xpossition);
+                if(objs == null)
+                {
+                    continue;
+                }
                 objsOnGround.Add(objs);
                 totalSpace += spawners.ElementAt(randomObjIndex).ObjectLenght;
                 if (totalSpace >= (groundMaxPos - 5f))

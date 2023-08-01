@@ -29,27 +29,26 @@ namespace ZombieTsunami.Enviroment
                 NumberOfHumansToSapwn = Random.Range(0, 4);
             }
 
+            if(NumberOfHumansToSapwn == 0 )
+            {
+                return null;
+            } 
+
+
             GameObject parrentObject = new GameObject("HumanGroup");
             var parrentObjectInstance = Instantiate(parrentObject);
             for (int i = 0; i < NumberOfHumansToSapwn; i++)
             {
                 var assetToSpawn = SpawnerHelper.GetRandomAssetToSpawn(humanAssets);
                 var instance = Instantiate(assetToSpawn);
-
-                if (instance.TryGetComponent<BoxCollider2D>(out BoxCollider2D componet))
-                {
-                    var topGround_y = groundTopCordinates + (componet.bounds.extents.y);
+                
+                    var topGround_y = groundTopCordinates + SpawnerHelper.GetExtentsOfObj(instance);
                     var XCordinateOffset = Random.Range(3f, 5f);
 
                     instance.transform.position = new Vector3(xCordinate + XCordinateOffset, topGround_y, i * -1);
                     objectLenght += instance.transform.localScale.x + XCordinateOffset;
 
-                    instance.transform.parent = parrentObjectInstance.gameObject.transform;
-                }
-                else
-                {
-                    Debug.Log("something went wrong");
-                }
+                instance.transform.parent = parrentObject.transform;
             }
             lastSpawnAmount = NumberOfHumansToSapwn;
             return parrentObjectInstance;

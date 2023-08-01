@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 107076095}
   - component: {fileID: 107076096}
   - component: {fileID: 107076097}
+  - component: {fileID: 107076098}
   m_Layer: 0
   m_Name: EnviromentManager
   m_TagString: Untagged
@@ -224,7 +225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 107076091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ffe27f803166848a56d36b24cd0f96, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a961a46060117e4c8f63722ce5a7aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundSpawner: {fileID: 107076094}
@@ -303,6 +304,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coin: {fileID: 7573233136212968163, guid: 7f262fc1fb175834f9dfade0edca27e6, type: 3}
   coinBlock: {fileID: 283346396198333448, guid: c0d7008bd36bf264c80d29e72b159a1a, type: 3}
+--- !u!114 &107076098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107076091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4fd572b7bc4244387829b07c76aa74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 3091047857106536757, guid: fad482fb4156fc141862dba1350dba6e, type: 3}
 --- !u!1 &138875216
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +671,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 827979532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f67c3f86cc92e4aa0ab9d9b27dbb10, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &831976526

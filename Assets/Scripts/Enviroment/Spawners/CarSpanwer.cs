@@ -26,17 +26,10 @@ namespace ZombieTsunami.Enviroment
             var assetToSpawn = SpawnerHelper.GetRandomAssetToSpawn(carAssets);
             if (assetToSpawn != null)
             {
-                var instance = Instantiate(assetToSpawn);
-                if (instance.TryGetComponent<BoxCollider2D>(out BoxCollider2D componet))
-                {
-                    var topGround_y = groundTopCordinates + (componet.bounds.extents.y);
+                var instance = Instantiate(assetToSpawn);      
+                    var topGround_y = groundTopCordinates + SpawnerHelper.GetExtentsOfObj(instance);
                     instance.transform.position = new Vector3(xCordinate, topGround_y, 0);
                     objectLenght = instance.transform.localScale.x;
-                }
-                else
-                {
-                    Debug.Log("something went wrong");
-                }
                 return instance;
             }
             return null;

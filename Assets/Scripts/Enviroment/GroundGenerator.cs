@@ -12,7 +12,6 @@ namespace ZombieTsunami.Enviroment
         {
             GameObject ground = new GameObject("Ground");
 
-
             float tempLenght = Random.Range(10f, 60f);
             if (Lenght == tempLenght)
             {

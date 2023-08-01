@@ -14,6 +14,12 @@ namespace ZombieTsunami.Enviroment
         {
             spawners = this.gameObject.GetComponents<ISpawner>();
             groundSpawner.SpawnStartingGround();
+            groundCount++;
+            if (groundSpawner.CurrentGround.TryGetComponent<EnviromentMovementScript>(out EnviromentMovementScript groundScript))
+            {
+                groundScript.OnGroundDeleted += () => { groundCount--; };
+            }
+            groundSpawner.CurrentGround.gameObject.AddComponent<EnviromentBlock>().OnInitit(spawners);
         }
 
         // Update is called once per frame
