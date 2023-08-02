@@ -25,6 +25,9 @@ namespace Assets.Scripts.Enviroment
         public GameObject SpawnRandomObject(float groundTopCordinates, float xCordinate)
         {
             groundTopCordinates += vehicle.transform.localScale.y / 2;
+
+            //Check if the player is on the current ground
+            //Launch after some kind of alarm
             var instance = Instantiate(vehicle, new Vector3(xCordinate, groundTopCordinates,1),Quaternion.identity);
             objectLenght = 1f;
             return vehicle;

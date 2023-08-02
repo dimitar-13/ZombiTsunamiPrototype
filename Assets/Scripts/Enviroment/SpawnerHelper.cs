@@ -28,5 +28,9 @@ namespace ZombieTsunami.Enviroment
         {
             return gameObjs.transform.position.x - (gameObjs.transform.localScale.x / 2);
         }
+        public static float GetObjTopCordinate(GameObject gameObjs)
+        {
+            return gameObjs.transform.position.y + GetExtentsOfObj(gameObjs);
+        }
     }
 }

@@ -1,5 +1,4 @@
 using UnityEngine;
-using ZombieTsunami.Core;
 
 namespace ZombieTsunami.Enviroment
 {
@@ -9,32 +8,27 @@ namespace ZombieTsunami.Enviroment
         private GameObject[] GroundAssets;
         public GameObject CurrentGround;
         public GroundGenerator groundGenerator;
+        private float lastGroundOffset=0f;
 
         //max y -11.7
         //min y -3.6
         public void SpawnRandomGroundAsset()
         {
-            //we need to get a reference to the Instantiated onbject so that we can get the correct value for the Box collider bounds
-            //for some reason if its a prefab you cant do it might be beause it doesnt exist in the scene
-
-            //var instance = Instantiate(GroundAssets[randomIndex],new Vector3(Constants.SpawnXPossition, 0f),Quaternion.identity,this.gameObject.transform,);
-
-            //var instance = Instantiate(groundGenerator.GenerateGround(), new Vector3(Constants.SPAWN_X_POSSITION, 0f), Quaternion.identity, this.gameObject.transform);
             var instance = groundGenerator.GenerateGround();
 
             float currentGroundBounds = SpawnerHelper.GetMaxBounOfObjX(CurrentGround);
 
-            instance.gameObject.transform.position = new Vector3(Constants.SPAWN_X_POSSITION, 0f);
+            float newGroundBounds = SpawnerHelper.GetMinBounOfObjX(instance) * -1;
 
-           // BoxCollider2D groundColider = instance.GetComponent<BoxCollider2D>();
+            float groundOffset = Random.Range(3f, 6f);
+            if(groundOffset == lastGroundOffset)
+            {
+                groundOffset = Random.Range(3f, 6f);
+            }
 
-
-            //since some of the box coliders does use offset to be able to get the exact bound location we need to subtract the offset of the colider
-            float newGroundBounds = SpawnerHelper.GetMinBounOfObjX(instance);
-
-
-            instance.transform.position = new Vector2(currentGroundBounds +  5f + newGroundBounds, Random.Range(-6.16f, -4.76f));
+            instance.transform.position = new Vector2(currentGroundBounds + groundOffset + newGroundBounds, Random.Range(-6.16f, -4.76f));
             CurrentGround = instance;
+            lastGroundOffset = groundOffset;
         }
 
         public void SpawnStartingGround()
