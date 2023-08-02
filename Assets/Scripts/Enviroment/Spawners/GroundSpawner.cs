@@ -52,12 +52,5 @@ namespace ZombieTsunami.Enviroment
             Min = CurrentGround.transform.position.x - groundColider.bounds.extents.x;
         }
 
-
-        public static float GetGroundTopCordinates(GameObject CurrentGround)
-        {
-            return CurrentGround.transform.position.y + SpawnerHelper.GetExtentsOfObj(CurrentGround);
-        }
-
-
     }
 }
