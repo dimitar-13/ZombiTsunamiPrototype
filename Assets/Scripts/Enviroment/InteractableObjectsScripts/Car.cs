@@ -9,6 +9,7 @@ namespace ZombieTsunami.InteractableObjectsScripts
         private int amountToBreak;
         [SerializeField]
         private int zombiesTouching;
+        
         public int ZombiesTouching { get => zombiesTouching; }
 
         public void Interact(Zombie zombie = null)

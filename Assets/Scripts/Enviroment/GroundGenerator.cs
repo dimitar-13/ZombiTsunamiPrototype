@@ -25,6 +25,7 @@ namespace ZombieTsunami.Enviroment
 
             ground.gameObject.AddComponent<EnviromentMovementScript>();
 
+            ground.layer = 6;
             Lenght = tempLenght;
             return ground;
         }

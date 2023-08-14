@@ -32,6 +32,7 @@ namespace ZombieTsunami.Core
         private void OnCollisionEnter2D(Collision2D collision)
         {
             isOnGround = true;
+            Events.OnPlayerEnterNewGround?.Invoke(this.transform,collision.transform);
             if (collision.gameObject.TryGetComponent<IInteractable>(out IInteractable interactable))
             {
                 interactable.Interact(this);
