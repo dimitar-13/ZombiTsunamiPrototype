@@ -1,5 +1,6 @@
+using Assets.Scripts.Core;
 using UnityEngine;
-using ZombieTsunami.Core;
+
 
 namespace ZombieTsunami.InteractableObjectsScripts
 {

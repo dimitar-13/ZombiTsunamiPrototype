@@ -1,17 +1,17 @@
+using Assets.Scripts.Enviroment;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace ZombieTsunami.Enviroment
 {
-    public class EnviromentBlock : MonoBehaviour
+    public class GroundSpawnManager : MonoBehaviour
     {
         [SerializeField]
         private List<GameObject> objsOnGround = new List<GameObject>();
         private ISpawner[] spawners;
         private float objectsOffset = 10f;
         private int amountToSpawn;
-
         private void Start()
         {
             SpawnRandomObjecstOnGround();
@@ -46,12 +46,16 @@ namespace ZombieTsunami.Enviroment
                     randomObjIndex = UnityEngine.Random.Range(0, spawners.Length);
 
                 }
-                var objs = spawners.ElementAt(randomObjIndex).SpawnRandomObject(GroundSpawner.GetGroundTopCordinates(this.gameObject), Xpossition);
-                if(objs == null)
+                var obj = spawners.ElementAt(randomObjIndex).SpawnRandomObject(SpawnerHelper.GetObjTopCordinate(this.gameObject), Xpossition);
+                if(obj == null)
                 {
                     continue;
                 }
-                objsOnGround.Add(objs);
+                if (obj.TryGetComponent<IGroundDependent>(out IGroundDependent GroundDependentObj))
+                {
+                    GroundDependentObj.CurrrentGround = this.gameObject;
+                }
+                objsOnGround.Add(obj);
                 totalSpace += spawners.ElementAt(randomObjIndex).ObjectLenght;
                 if (totalSpace >= (groundMaxPos - 5f))
                 {

@@ -1,3 +1,4 @@
+using Assets.Scripts.Enviroment;
 using UnityEngine;
 
 namespace ZombieTsunami.Enviroment
@@ -19,7 +20,7 @@ namespace ZombieTsunami.Enviroment
             {
                 groundScript.OnGroundDeleted += () => { groundCount--; };
             }
-            groundSpawner.CurrentGround.gameObject.AddComponent<EnviromentBlock>().OnInitit(spawners);
+            groundSpawner.CurrentGround.gameObject.AddComponent<GroundSpawnManager>().OnInitit(spawners);
         }
 
         // Update is called once per frame
@@ -41,7 +42,8 @@ namespace ZombieTsunami.Enviroment
             {
                 groundScript.OnGroundDeleted += () => { groundCount--; };
             }
-            groundSpawner.CurrentGround.gameObject.AddComponent<EnviromentBlock>().OnInitit(spawners);
+            groundSpawner.CurrentGround.gameObject.AddComponent<GroundSpawnManager>().OnInitit(spawners);
+
         }
     }
 }

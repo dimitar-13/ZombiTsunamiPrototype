@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
+using Assets.Scripts.Core;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
-using ZombieTsunami.Core;
 
-namespace ZombieTsunami.ZombiScripts
+namespace Assets.Scripts.Core
 {
     [CreateAssetMenu(menuName = "ZombiManager")]
     public class ZombiManager : ScriptableObject
@@ -17,5 +14,10 @@ namespace ZombieTsunami.ZombiScripts
         {
             Zombies = null;
         }
+        private void ZombieCollision()
+        {
+
+        }
+
     }
 }

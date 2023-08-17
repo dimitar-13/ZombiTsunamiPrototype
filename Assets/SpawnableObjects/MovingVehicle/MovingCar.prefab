@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2309691690895376782}
   - component: {fileID: 7947270325630479599}
   - component: {fileID: -3716621173021617314}
+  - component: {fileID: 6563810830855384909}
   m_Layer: 0
-  m_Name: Car
+  m_Name: MovingCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,9 +120,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3091047857106536757}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c943e7ba4a0371743adbb5957bea516d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
+--- !u!114 &6563810830855384909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091047857106536757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c3826f997d7c8479fdbb517e0b441f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombieMask:
+    serializedVersion: 2
+    m_Bits: 8

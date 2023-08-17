@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Assets.Scripts.Core;
 using UnityEngine;
 using ZombieTsunami.Enviroment;
 
@@ -28,9 +25,9 @@ namespace Assets.Scripts.Enviroment
 
             //Check if the player is on the current ground
             //Launch after some kind of alarm
-            var instance = Instantiate(vehicle, new Vector3(xCordinate, groundTopCordinates,1),Quaternion.identity);
+            var instance = Instantiate(vehicle, new Vector3(Constants.OFSCREEN_POSSITION, groundTopCordinates, 1), Quaternion.identity);
             objectLenght = 1f;
-            return vehicle;
+            return instance;
         }
     }
 }

@@ -32,5 +32,9 @@ namespace ZombieTsunami.Enviroment
         {
             return gameObjs.transform.position.y + GetExtentsOfObj(gameObjs);
         }
+        public static float GetObjBottomCordinate(GameObject gameObjs)
+        {
+            return gameObjs.transform.position.y - GetExtentsOfObj(gameObjs);
+        }
     }
 }

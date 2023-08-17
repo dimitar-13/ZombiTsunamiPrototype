@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZombieTsunami.Core
+namespace Assets.Scripts.Core
 {
     public class Zombie : MonoBehaviour
     {
@@ -32,6 +32,8 @@ namespace ZombieTsunami.Core
         private void OnCollisionEnter2D(Collision2D collision)
         {
             isOnGround = true;
+            if (!ZombieCollisionHelper.IsZombieOnSameGround(collision.gameObject))
+                Events.OnPlayerEnterNewGround?.Invoke(collision.gameObject);
             if (collision.gameObject.TryGetComponent<IInteractable>(out IInteractable interactable))
             {
                 interactable.Interact(this);

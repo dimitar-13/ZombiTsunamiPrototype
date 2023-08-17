@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using ZombieTsunami.Core;
+using Assets.Scripts.Core;
 
 namespace ZombieTsunami.ZombiScripts
 {

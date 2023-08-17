@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
-using ZombieTsunami.Core;
+using Assets.Scripts.Core;
+
 
 namespace ZombieTsunami.Enviroment
 {

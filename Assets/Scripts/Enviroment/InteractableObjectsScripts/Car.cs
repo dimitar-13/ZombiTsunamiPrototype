@@ -1,5 +1,5 @@
 using UnityEngine;
-using ZombieTsunami.Core;
+using Assets.Scripts.Core;
 
 namespace ZombieTsunami.InteractableObjectsScripts
 {
@@ -9,6 +9,7 @@ namespace ZombieTsunami.InteractableObjectsScripts
         private int amountToBreak;
         [SerializeField]
         private int zombiesTouching;
+        
         public int ZombiesTouching { get => zombiesTouching; }
 
         public void Interact(Zombie zombie = null)
