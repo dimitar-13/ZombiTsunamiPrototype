@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
+using Assets.Scripts.Core;
 using UnityEngine;
-using ZombieTsunami.Core;
+
 
 namespace ZombieTsunami.InteractableObjectsScripts
 {

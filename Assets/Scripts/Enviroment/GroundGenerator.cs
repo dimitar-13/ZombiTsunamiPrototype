@@ -1,3 +1,4 @@
+using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using UnityEngine;
 
 namespace ZombieTsunami.Enviroment
@@ -25,7 +26,7 @@ namespace ZombieTsunami.Enviroment
 
             ground.gameObject.AddComponent<EnviromentMovementScript>();
 
-            ground.layer = 6;
+            ground.tag = "Ground";
             Lenght = tempLenght;
             return ground;
         }

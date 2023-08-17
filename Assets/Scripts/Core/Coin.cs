@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ZombieTsunami.Core;
 
-namespace ZombieTsunami.Core
+namespace Assets.Scripts.Core
 {
     public class Coin : MonoBehaviour, IInteractable
     {

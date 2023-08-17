@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
-using ZombieTsunami.Core;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Enviroment
 {
@@ -31,7 +25,7 @@ namespace Assets.Scripts.Enviroment
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if(collision.gameObject.tag == "Zombie" )
+            if (collision.gameObject.tag == "Zombie")
             {
                 isPlayerOnGround = true;
             }

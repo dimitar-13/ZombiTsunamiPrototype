@@ -1,4 +1,4 @@
-namespace ZombieTsunami.Core
+namespace Assets.Scripts.Core
 {
 
     public static class Constants

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13390ce8049eab444b400a3a5ebb235c, type: 3}
+  m_Script: {fileID: 11500000, guid: 62980c9e1535cbe41852725aba77eada, type: 3}
   m_Name: ZombieManager
   m_EditorClassIdentifier: 
   Zombies: []

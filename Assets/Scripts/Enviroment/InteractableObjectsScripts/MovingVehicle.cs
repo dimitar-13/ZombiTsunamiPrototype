@@ -1,67 +1,50 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Core;
+using Assets.Scripts.Enviroment;
+using System.Collections;
 using UnityEngine;
-using ZombieTsunami.Core;
+using ZombieTsunami.Enviroment;
 
 namespace Assets.Scripts.InteractableObjectsScripts
 {
-    public class MovingVehicle : MonoBehaviour
+    public class MovingVehicle : MonoBehaviour, IGroundDependent,IInteractable
     {
-
-        private RaycastHit2D hitData;
-        private Ray2D ray;
-        [SerializeField]
-        private LayerMask zombieMask;
-        private bool isPlayerDetected = false;
-        private float detectionTime = 0f;
         private MovingVehicleHelper helper;
-
-
-
-        private GameObject currentGround;
+        public GameObject CurrrentGround { get; set; }
+      
         private void Start()
         {
-            ray = new Ray2D(this.transform.position, Vector2.left);
             helper = new MovingVehicleHelper();
             Events.OnPlayerEnterNewGround += OnZombieTouchGround;
+            CurrrentGround.GetComponent<EnviromentMovementScript>().OnGroundDeleted += () => {
+                Destroy(this.gameObject);
+            };
         }
-
-        private void Update()
-        {
-        
-
-        }
-
         IEnumerator ShootVehicleAtPlayer()
         {
-            while (!isPlayerDetected)
-            {
-                hitData = Physics2D.Raycast(ray.origin, ray.direction, 100f, zombieMask);
-                if (hitData.collider != null)
-                {
-                    isPlayerDetected = helper.IsPlayerOnSameGround(this.gameObject, hitData.collider.gameObject);
-                }
-                yield return null;
-            }
-
-            if(isPlayerDetected)
-            {
-            Debug.Log("Attention");
-            yield return new WaitForSeconds(2); // Wait for 5 seconds after detecting the player
-            }
-
-            Debug.Log("Starting to move...");
-            // Start moving the vehicle after waiting
+                Debug.Log("Attention");
+                yield return new WaitForSeconds(2); 
+            Debug.Log("Starting to move..."); 
             while (Vector2.Distance(gameObject.transform.position, new Vector2(Constants.DESTROY_X_POSSITION, this.transform.position.y)) > 0.1f)
             {
                 gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, new Vector2(Constants.DESTROY_X_POSSITION, this.transform.position.y), 15f * Time.deltaTime);
                 yield return null;
             }
+            Destroy(gameObject);
         }
 
 
-        public void OnZombieTouchGround(Transform zombieTransform, Transform groundTransform)
+        public void OnZombieTouchGround(GameObject playerGround)
         {
+            if(helper.IsPlayerOnSameGround(this.CurrrentGround, playerGround))
             StartCoroutine(ShootVehicleAtPlayer());
+
+        }
+
+        public void Interact(Zombie zombie)
+        {
+            Events.OnZombieKilled?.Invoke(zombie);
+            Destroy(gameObject);
+
         }
     }
 }

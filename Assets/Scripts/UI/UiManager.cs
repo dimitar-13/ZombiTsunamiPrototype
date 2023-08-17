@@ -1,6 +1,7 @@
+using Assets.Scripts.Core;
 using UnityEngine;
 using UnityEngine.UI;
-using ZombieTsunami.Core;
+
 
 namespace ZombieTsunami.UI
 {

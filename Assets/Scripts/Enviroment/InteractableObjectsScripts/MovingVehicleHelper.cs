@@ -6,11 +6,9 @@ namespace Assets.Scripts.InteractableObjectsScripts
     {
         public LayerMask groundLayerMask = 1 << 6;
 
-        public bool IsPlayerOnSameGround(GameObject vehicle, GameObject player)
+        public bool IsPlayerOnSameGround(GameObject vehicleGround, GameObject playerGround)
         {
-            RaycastHit2D vehicleRay = Physics2D.Raycast(vehicle.transform.position, Vector2.down, 10f, groundLayerMask);
-            RaycastHit2D playerRay = Physics2D.Raycast(player.transform.position, Vector2.down, 10f, groundLayerMask);
-            return (vehicleRay && playerRay) ? vehicleRay.collider.Equals(playerRay.collider) : false;
+            return vehicleGround == playerGround; 
         }
     }
 }

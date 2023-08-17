@@ -1,7 +1,7 @@
-﻿using Codice.CM.Common;
+﻿
+using Assets.Scripts.Core;
 using UnityEngine;
 using ZombieTsunami.Enviroment;
-using ZombieTsunami.Core;
 
 namespace Assets.Scripts.Enviroment
 {
@@ -25,9 +25,9 @@ namespace Assets.Scripts.Enviroment
 
             //Check if the player is on the current ground
             //Launch after some kind of alarm
-            var instance = Instantiate(vehicle, new Vector3(ZombieTsunami.Core.Constants.OFSCREEN_POSSITION, groundTopCordinates, 1), Quaternion.identity);
+            var instance = Instantiate(vehicle, new Vector3(Constants.OFSCREEN_POSSITION, groundTopCordinates, 1), Quaternion.identity);
             objectLenght = 1f;
-            return vehicle;
+            return instance;
         }
     }
 }

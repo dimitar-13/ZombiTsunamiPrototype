@@ -1,3 +1,4 @@
+using Assets.Scripts.Enviroment;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -45,12 +46,16 @@ namespace ZombieTsunami.Enviroment
                     randomObjIndex = UnityEngine.Random.Range(0, spawners.Length);
 
                 }
-                var objs = spawners.ElementAt(randomObjIndex).SpawnRandomObject(SpawnerHelper.GetObjTopCordinate(this.gameObject), Xpossition);
-                if(objs == null)
+                var obj = spawners.ElementAt(randomObjIndex).SpawnRandomObject(SpawnerHelper.GetObjTopCordinate(this.gameObject), Xpossition);
+                if(obj == null)
                 {
                     continue;
                 }
-                objsOnGround.Add(objs);
+                if (obj.TryGetComponent<IGroundDependent>(out IGroundDependent GroundDependentObj))
+                {
+                    GroundDependentObj.CurrrentGround = this.gameObject;
+                }
+                objsOnGround.Add(obj);
                 totalSpace += spawners.ElementAt(randomObjIndex).ObjectLenght;
                 if (totalSpace >= (groundMaxPos - 5f))
                 {
