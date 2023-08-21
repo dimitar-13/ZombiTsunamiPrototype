@@ -10,5 +10,12 @@ namespace Assets.Scripts.InteractableObjectsScripts
         {
             return vehicleGround == playerGround; 
         }
+
+        public void MoveWarningSingFoward(GameObject warningSing)
+        {
+
+            warningSing.transform.position = new Vector2(warningSing.transform.position.x - 3f, warningSing.transform.position.y);
+        }
+
     }
 }

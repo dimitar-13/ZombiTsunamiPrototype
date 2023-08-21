@@ -7,6 +7,7 @@ TagManager:
   - KillBox
   - Human
   - Zombie
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -20,7 +20,7 @@ namespace ZombieTsunami.Enviroment
         private float objectLenght;
         public GameObject SpawnRandomObject(float groundTopCordinates, float xCordinate)
         {
-            return Instantiate(bomb, new Vector3(xCordinate, groundTopCordinates), Quaternion.identity);
+            return Instantiate(bomb, new Vector3(xCordinate, groundTopCordinates +1f), Quaternion.identity);
         }
 
     }

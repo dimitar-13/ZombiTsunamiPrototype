@@ -1,0 +1,2094 @@
+fileFormatVersion: 2
+guid: 0155c8c781dc70f43b25e9d7684685c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_0
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 836
+        width: 234
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b964beed52958694d8ae6f0cb338d513
+      internalID: -1205055224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_1
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 845
+        width: 95
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdcdc4da7bead3439d7f98ddf2ec8c1
+      internalID: 1451632195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 842
+        width: 145
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02281948f75803e4987b8ce0f28a0ff5
+      internalID: 1306627005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 699
+        width: 84
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624b6f2a8a94e4a48b394308fd125fac
+      internalID: -1305663903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 817
+        width: 189
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f65242fed1039b419bfb7b744330d3e
+      internalID: 743371088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 733
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0d565fa5864c540a1f4e5d0124f613
+      internalID: 498853027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 723
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5556a8e5d0a4e49af414240f3fc5e9
+      internalID: -1083497393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 671
+        width: 147
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4588cadabdcbb47b9af92201c4dea6
+      internalID: 1521231850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 713
+        width: 50
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14092c42889fad4459d7572e205c28ac
+      internalID: 974602118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_9
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 332
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5db97db048b33a4ba4627bd8eadf99f
+      internalID: 1211007856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_10
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 332
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41794a71dd9d1ae4392e8345c0fc2ae5
+      internalID: 1776471058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_11
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 336
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3659badd7dae04596a0927949bb809
+      internalID: 162968006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_12
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 339
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d9b806cef3144fbe8e68a26731bf4
+      internalID: 1465572387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 333
+        width: 95
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73e58d108290b43bedaf06a0d10f6d
+      internalID: -119119458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 263
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc59b989e06c36478ee031a56a4672f
+      internalID: -681209304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 193
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce88c60178d9904388c47d5d38e86b0
+      internalID: 1523796353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 174
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77325984517e7044fa54251b1808a39e
+      internalID: -1854091628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7b78c80a0a4f644b58d4fff20e8c46
+      internalID: 1219855230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c779086226aff428f1bd8c51d7319a
+      internalID: -1696837740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 122
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fe05d0af3f1ed429a964bf1a2f0550
+      internalID: -1508825838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 168
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3830e8b204e5e4418f1ce2fdcb6a9a7
+      internalID: -316542325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 168
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7492d2b0e377b984595e834c7b94abdd
+      internalID: -1446356013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 244
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83407873a74984f47a2cc52f10757411
+      internalID: 828870008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 245
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b48cc535897274da33d5bab89457dc
+      internalID: -1106137691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 167
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9e2a34bd1fede4792ff3ca07e5ef52
+      internalID: 1530433059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 169
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156fede24e4fb746aa97b1bb5946981
+      internalID: -348227194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_26
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 189
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3850f92f9d3744a2b11915a6b93eb
+      internalID: -507659022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_27
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 189
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe398ef45f68070479987fd9d76acada
+      internalID: 188039880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_28
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 180
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71515983f36a2ac47a4ff0bed0dbd91b
+      internalID: -1973811126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_29
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 180
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d585f080071e9141a73f6835e22618b
+      internalID: -1803348067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_30
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 111
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839218ebaf62d274d8a0ddb80cf53700
+      internalID: -1303289973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_31
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 187
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f824de8a48d49fc40912f68a87fa2870
+      internalID: 1057180663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_32
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 172
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593ea07ed275e44d9635b3234e1bb5b
+      internalID: 966707898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_33
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 173
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1af29dcf9ce0e649bb06fa7a7c56f9c
+      internalID: -1661603734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_34
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 173
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bd0b8b7b97f854da2e0ac23914072b
+      internalID: -1532695269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_35
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 109
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9c3db1d1321194b8a6c8546ae369bc
+      internalID: -1219706551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_36
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 263
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c09650b8fdf37744beacf24f0ac586c
+      internalID: 1225812045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_37
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 113
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f9579b2d1c284ebc45387004ebb4f
+      internalID: -393902105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_38
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 71
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d597fbe8d96ed143aff1b1d905e6bcd
+      internalID: -1666634533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_39
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902033bcf29ae6f4ebe09f636f5ffda8
+      internalID: -1737020086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_40
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 120
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579c5fb22e9afee4da00b52ea167caa0
+      internalID: -267568248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_41
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 111
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4882a6f27201bda41895a44d5bc89de5
+      internalID: 308568139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_42
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 110
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2707103149e288246bb95e0add88b323
+      internalID: -1624862355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_43
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 17
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0329b88d4fa0a243bddaba3e36bfb7e
+      internalID: 1567856360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_44
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 17
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa7a9fb8ae869045a16e3dee078f637
+      internalID: -1912073633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_45
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 42
+        width: 404
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e11c054758d214786b71d480937aa2
+      internalID: 1376059618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 58
+        width: 428
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e2c3bf4b5431429ad3e08f5783264
+      internalID: 1507856521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_47
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 116
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cd871264748c14cb584835c291c2c5
+      internalID: -2134035357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_48
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 118
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceae2f6825e61d4fb5247696d1afbd8
+      internalID: -343688081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 260
+        width: 164
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e8524157102e4fa7ae654a49a6116
+      internalID: 880899208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_50
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 243
+        width: 100
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b45cea3539203e4cbb955f6f338c6d4
+      internalID: -1993033562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_51
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 341
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8aea341398ed04485806c551500e39
+      internalID: 688922254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 337
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ef22c21a165040a320171d7ba5c7a
+      internalID: 1124474722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 316
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b6f2fcef7f0e545967dd1573ad5b39
+      internalID: 1242048747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 509
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b2b075b9477c64d83b6769c351c147
+      internalID: 633844877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_55
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 432
+        width: 499
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16272376ec17b0f4aa82b60fe0f3f1f8
+      internalID: -351217401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_56
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 339
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a614a1d1b823b46a6960f0a94335a0
+      internalID: 503808448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_57
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 26
+        width: 182
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775434999547d8645ab5d10f3d27727a
+      internalID: -1361053040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 8
+        width: 415
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbf13bd6698efe48acedbad4fc2d234
+      internalID: 1219854155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_59
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 15
+        width: 127
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a795350fec17834cb86facd3c638897
+      internalID: -1536334312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 147
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba176cf9042e7e40996fd8469a88096
+      internalID: -891744398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_61
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 127
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98ede5f0d7646468450c666244cdc7
+      internalID: -1927322012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_62
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 107
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac18f6868fc0b4149acbfbde3d813878
+      internalID: -835518132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_63
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 255
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14cb2f07644b0140b3954e2a271c2ee
+      internalID: -1128664094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_64
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 256
+        width: 98
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc8270ff38f12f458fc4d73767b6f29
+      internalID: -1066326510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_65
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 183
+        width: 194
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81ec236472da4844958a7c01ac0ed1d
+      internalID: -318375026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_66
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 249
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7f579386fdd57449dc860f609d6682
+      internalID: 1642637349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_67
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 692
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50c0b3da9cef44a8c79adcaa220a84
+      internalID: 1673164864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_68
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 688
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15856eea25adf34aae4722f10916aa3
+      internalID: -1901095669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_69
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 672
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cc6dc3465ce5545a90bd85842d2f53
+      internalID: -1551069515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_70
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 675
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c97f7ae15609d41bad4036b8462a73
+      internalID: 1738727801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_71
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 679
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf66146644def4cb44d6d02e7a6142
+      internalID: 1578449566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_72
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 597
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143304c01fb504842878a3c9d74790f0
+      internalID: 1769830987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_73
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 547
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6428efacf47384e95ff3e613954f56
+      internalID: -1428202181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_74
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 547
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa41a60f194dc4c419f36640df73c769
+      internalID: -1812649118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_75
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 580
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d7f76dbfed334ca26ed2afc291983
+      internalID: -2114647029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_76
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 599
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f9ed459f9d9614582255ff84f745a9
+      internalID: -397174405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_77
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 602
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf34ab9248667534b9d41e02eddfc9f9
+      internalID: 1480039369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_78
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 683
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f8dbef591c6e4f96f807e518f11b4
+      internalID: 1487972812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_79
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 732
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a4cad84bd5454eb33f3b4970382d0
+      internalID: -1606696519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_80
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 682
+        width: 73
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948d7f699ba1d894cb66cebf98ff9791
+      internalID: 1219078569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_81
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 676
+        width: 104
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da7ec05611cc5142b3f131b83bd87ed
+      internalID: 1456796375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_82
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 546
+        width: 216
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc375772a8e20544da05d5e986d55aef
+      internalID: 679009748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_83
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 552
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792fb6fce2e4a6442b64a84cd082e79e
+      internalID: 1463782746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_84
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 566
+        width: 271
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b188aa1be35efc4a89405c8c0713630
+      internalID: -317636606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_85
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 685
+        width: 276
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1fd45c5e9fee743867e846c3bfc2e6
+      internalID: 4246809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0943e7a323dc2654297c5e1800d12355
+      internalID: -580616632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 9
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b325a5e97978cef46bfbb0498d0eb676
+      internalID: -1311438402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_88
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 808
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58be4b09498019940b690480db74be97
+      internalID: -1762214377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Zombie Tsunami - HUD_84: -317636606
+      Mobile - Zombie Tsunami - HUD_51: 688922254
+      Mobile - Zombie Tsunami - HUD_73: -1428202181
+      Mobile - Zombie Tsunami - HUD_31: 1057180663
+      Mobile - Zombie Tsunami - HUD_28: -1973811126
+      Mobile - Zombie Tsunami - HUD_4: 743371088
+      Mobile - Zombie Tsunami - HUD_47: -2134035357
+      Mobile - Zombie Tsunami - HUD_12: 1465572387
+      Mobile - Zombie Tsunami - HUD_26: -507659022
+      Mobile - Zombie Tsunami - HUD_70: 1738727801
+      Mobile - Zombie Tsunami - HUD_62: -835518132
+      Mobile - Zombie Tsunami - HUD_25: -348227194
+      Mobile - Zombie Tsunami - HUD_68: -1901095669
+      Mobile - Zombie Tsunami - HUD_65: -318375026
+      Mobile - Zombie Tsunami - HUD_13: -119119458
+      Mobile - Zombie Tsunami - HUD_39: -1737020086
+      Mobile - Zombie Tsunami - HUD_69: -1551069515
+      Mobile - Zombie Tsunami - HUD_11: 162968006
+      Mobile - Zombie Tsunami - HUD_78: 1487972812
+      Mobile - Zombie Tsunami - HUD_6: -1083497393
+      Mobile - Zombie Tsunami - HUD_44: -1912073633
+      Mobile - Zombie Tsunami - HUD_36: 1225812045
+      Mobile - Zombie Tsunami - HUD_87: -1311438402
+      Mobile - Zombie Tsunami - HUD_49: 880899208
+      Mobile - Zombie Tsunami - HUD_37: -393902105
+      Mobile - Zombie Tsunami - HUD_0: -1205055224
+      Mobile - Zombie Tsunami - HUD_9: 1211007856
+      Mobile - Zombie Tsunami - HUD_56: 503808448
+      Mobile - Zombie Tsunami - HUD_74: -1812649118
+      Mobile - Zombie Tsunami - HUD_61: -1927322012
+      Mobile - Zombie Tsunami - HUD_50: -1993033562
+      Mobile - Zombie Tsunami - HUD_81: 1456796375
+      Mobile - Zombie Tsunami - HUD_63: -1128664094
+      Mobile - Zombie Tsunami - HUD_30: -1303289973
+      Mobile - Zombie Tsunami - HUD_43: 1567856360
+      Mobile - Zombie Tsunami - HUD_75: -2114647029
+      Mobile - Zombie Tsunami - HUD_22: 828870008
+      Mobile - Zombie Tsunami - HUD_80: 1219078569
+      Mobile - Zombie Tsunami - HUD_35: -1219706551
+      Mobile - Zombie Tsunami - HUD_3: -1305663903
+      Mobile - Zombie Tsunami - HUD_18: -1696837740
+      Mobile - Zombie Tsunami - HUD_34: -1532695269
+      Mobile - Zombie Tsunami - HUD_16: -1854091628
+      Mobile - Zombie Tsunami - HUD_29: -1803348067
+      Mobile - Zombie Tsunami - HUD_79: -1606696519
+      Mobile - Zombie Tsunami - HUD_27: 188039880
+      Mobile - Zombie Tsunami - HUD_82: 679009748
+      Mobile - Zombie Tsunami - HUD_21: -1446356013
+      Mobile - Zombie Tsunami - HUD_48: -343688081
+      Mobile - Zombie Tsunami - HUD_41: 308568139
+      Mobile - Zombie Tsunami - HUD_8: 974602118
+      Mobile - Zombie Tsunami - HUD_57: -1361053040
+      Mobile - Zombie Tsunami - HUD_7: 1521231850
+      Mobile - Zombie Tsunami - HUD_23: -1106137691
+      Mobile - Zombie Tsunami - HUD_42: -1624862355
+      Mobile - Zombie Tsunami - HUD_24: 1530433059
+      Mobile - Zombie Tsunami - HUD_83: 1463782746
+      Mobile - Zombie Tsunami - HUD_59: -1536334312
+      Mobile - Zombie Tsunami - HUD_46: 1507856521
+      Mobile - Zombie Tsunami - HUD_53: 1242048747
+      Mobile - Zombie Tsunami - HUD_54: 633844877
+      Mobile - Zombie Tsunami - HUD_32: 966707898
+      Mobile - Zombie Tsunami - HUD_38: -1666634533
+      Mobile - Zombie Tsunami - HUD_52: 1124474722
+      Mobile - Zombie Tsunami - HUD_1: 1451632195
+      Mobile - Zombie Tsunami - HUD_45: 1376059618
+      Mobile - Zombie Tsunami - HUD_33: -1661603734
+      Mobile - Zombie Tsunami - HUD_19: -1508825838
+      Mobile - Zombie Tsunami - HUD_15: 1523796353
+      Mobile - Zombie Tsunami - HUD_85: 4246809
+      Mobile - Zombie Tsunami - HUD_55: -351217401
+      Mobile - Zombie Tsunami - HUD_60: -891744398
+      Mobile - Zombie Tsunami - HUD_88: -1762214377
+      Mobile - Zombie Tsunami - HUD_20: -316542325
+      Mobile - Zombie Tsunami - HUD_71: 1578449566
+      Mobile - Zombie Tsunami - HUD_10: 1776471058
+      Mobile - Zombie Tsunami - HUD_40: -267568248
+      Mobile - Zombie Tsunami - HUD_72: 1769830987
+      Mobile - Zombie Tsunami - HUD_17: 1219855230
+      Mobile - Zombie Tsunami - HUD_5: 498853027
+      Mobile - Zombie Tsunami - HUD_66: 1642637349
+      Mobile - Zombie Tsunami - HUD_14: -681209304
+      Mobile - Zombie Tsunami - HUD_64: -1066326510
+      Mobile - Zombie Tsunami - HUD_76: -397174405
+      Mobile - Zombie Tsunami - HUD_2: 1306627005
+      Mobile - Zombie Tsunami - HUD_86: -580616632
+      Mobile - Zombie Tsunami - HUD_58: 1219854155
+      Mobile - Zombie Tsunami - HUD_67: 1673164864
+      Mobile - Zombie Tsunami - HUD_77: 1480039369
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

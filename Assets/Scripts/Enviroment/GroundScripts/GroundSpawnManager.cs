@@ -37,6 +37,7 @@ namespace ZombieTsunami.Enviroment
 
             float Xpossition = groundMinPos + 5f;
             float totalSpace = 0f;
+
             for (int i = 0; i < amountToSpawn; i++)
             {
                 randomObjIndex = UnityEngine.Random.Range(0, spawners.Length);
