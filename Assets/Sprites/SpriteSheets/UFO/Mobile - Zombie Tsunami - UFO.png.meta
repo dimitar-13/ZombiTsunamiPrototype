@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: d2b301b3281829c43a3d9a489359c20f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 208
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd6176ce5322f4439564307ceb0bd52
+      internalID: -1988964858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 466
+        width: 208
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e1815ff4aebea4da47eb076b4a1eac
+      internalID: -601086671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 469
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3133e8938cd4a4fb73b2bbdc73d384
+      internalID: -1804493309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 472
+        width: 209
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571eabd99e1b4c94fb2986620c3d6115
+      internalID: 1399056667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 475
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065880ceae55a245b9877e167889034
+      internalID: 693106179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 214
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb0688e5ad24f94da7585f81caa6abb
+      internalID: -1593164907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 354
+        width: 216
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e5cff1d1f2b444783694d9197de36d
+      internalID: 319259364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 351
+        width: 213
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84facc54f42994ca1900c125e9c23e
+      internalID: 96869864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 216
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481b95782e20a2d44b68524eef379289
+      internalID: -1808341220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 235
+        width: 212
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400e7926991ab5b41b3ec06e8ec37b43
+      internalID: 424921200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 236
+        width: 215
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8282de3cd68641932391c62279d02
+      internalID: 136400799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 215
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03d1ca7f5ce6474aa85f184948d63d3
+      internalID: -1013256032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 118
+        width: 213
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c628e1f5a1d5b4a952cc0eacebbfae
+      internalID: 1502980783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 118
+        width: 211
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fed814cefb02446b4062d79935c4ee
+      internalID: 189916368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_18
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 118
+        width: 210
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206ea4876dc1174eaa86419412187de
+      internalID: 816771398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 209
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a090c1923f3bf644985d0d0f05e3438
+      internalID: -1525372255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 6
+        width: 208
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8259b43e24e243142a9b6207ebb8f67d
+      internalID: 844319070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - UFO_6
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 530
+        width: 126
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435b738a1e2d1cd4082cfa95d6f11e62
+      internalID: 1477556064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Zombie Tsunami - UFO_19: 1152569314
+      Mobile - Zombie Tsunami - UFO_14: 1602117265
+      Mobile - Zombie Tsunami - UFO_15: -1013256032
+      Mobile - Zombie Tsunami - UFO_0: -1988964858
+      Mobile - Zombie Tsunami - UFO_1: -601086671
+      Mobile - Zombie Tsunami - UFO_23: 478358254
+      Mobile - Zombie Tsunami - UFO_4: 693106179
+      Mobile - Zombie Tsunami - UFO_22: -244067112
+      Mobile - Zombie Tsunami - UFO_18: 816771398
+      Mobile - Zombie Tsunami - UFO_5: -1593164907
+      Mobile - Zombie Tsunami - UFO_10: -1808341220
+      Mobile - Zombie Tsunami - UFO_8: 96869864
+      Mobile - Zombie Tsunami - UFO_21: 844319070
+      Mobile - Zombie Tsunami - UFO_6: 1477556064
+      Mobile - Zombie Tsunami - UFO_24: 234829522
+      Mobile - Zombie Tsunami - UFO_20: -1525372255
+      Mobile - Zombie Tsunami - UFO_13: 136400799
+      Mobile - Zombie Tsunami - UFO_12: -1214429367
+      Mobile - Zombie Tsunami - UFO_3: 1399056667
+      Mobile - Zombie Tsunami - UFO_16: 1502980783
+      Mobile - Zombie Tsunami - UFO_17: 189916368
+      Mobile - Zombie Tsunami - UFO_11: 424921200
+      Mobile - Zombie Tsunami - UFO_2: -1804493309
+      Mobile - Zombie Tsunami - UFO_9: 2141795850
+      Mobile - Zombie Tsunami - UFO_7: 319259364
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

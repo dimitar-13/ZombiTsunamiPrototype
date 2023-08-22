@@ -10,7 +10,9 @@ namespace Assets.Scripts.InteractableObjectsScripts
     {
         private MovingVehicleHelper helper;
         public GameObject CurrrentGround { get; set; }
-      
+
+        [SerializeField]
+        private GameObject warningSing;
         private void Start()
         {
             helper = new MovingVehicleHelper();
@@ -18,11 +20,14 @@ namespace Assets.Scripts.InteractableObjectsScripts
             CurrrentGround.GetComponent<EnviromentMovementScript>().OnGroundDeleted += () => {
                 Destroy(this.gameObject);
             };
+           // var spriteToLoad = Resources.Load("Assets/Scripts/Enviroment/CoinBlock.cs");
+            warningSing = (GameObject)Resources.Load("Assets/UiSpawnableElements/WarningSing");
         }
         IEnumerator ShootVehicleAtPlayer()
         {
-                Debug.Log("Attention");
-                yield return new WaitForSeconds(2); 
+            helper.MoveWarningSingFoward(Instantiate(warningSing));
+
+            yield return new WaitForSeconds(2); 
             Debug.Log("Starting to move..."); 
             while (Vector2.Distance(gameObject.transform.position, new Vector2(Constants.DESTROY_X_POSSITION, this.transform.position.y)) > 0.1f)
             {
