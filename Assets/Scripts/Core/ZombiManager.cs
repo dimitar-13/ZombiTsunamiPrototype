@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Core
 {
+
     [CreateAssetMenu(menuName = "ZombiManager")]
     public class ZombiManager : ScriptableObject
     {

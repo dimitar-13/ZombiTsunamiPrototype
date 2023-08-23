@@ -20,8 +20,8 @@ namespace Assets.Scripts.InteractableObjectsScripts
             CurrrentGround.GetComponent<EnviromentMovementScript>().OnGroundDeleted += () => {
                 Destroy(this.gameObject);
             };
-           // var spriteToLoad = Resources.Load("Assets/Scripts/Enviroment/CoinBlock.cs");
-            warningSing = (GameObject)Resources.Load("Assets/UiSpawnableElements/WarningSing");
+            // var spriteToLoad = Resources.Load("Assets/Scripts/Enviroment/CoinBlock.cs");
+            warningSing = (GameObject)Resources.Load("SpawnableObjects/UiSpawnableElements/WarningSing");
         }
         IEnumerator ShootVehicleAtPlayer()
         {
