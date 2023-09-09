@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using UnityEngine;
 
 namespace Assets.Scripts.SpritesHandler
@@ -15,6 +11,12 @@ namespace Assets.Scripts.SpritesHandler
         private void Start()
         {
             container.PullSprites();
+        }
+
+        private void Update()
+        {
+            float angle = Random.Range(0,360);
+            this.gameObject.transform.position = new Vector2(Mathf.Cos(angle),Mathf.Sin(angle))*Time.deltaTime;
         }
     }
 }
