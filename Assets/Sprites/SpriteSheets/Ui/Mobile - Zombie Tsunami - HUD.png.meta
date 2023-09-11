@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -206,10 +206,10 @@ TextureImporter:
       name: Mobile - Zombie Tsunami - HUD_4
       rect:
         serializedVersion: 2
-        x: 6
-        y: 817
-        width: 189
-        height: 204
+        x: 93
+        y: 826
+        width: 102
+        height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,9 +228,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 118
-        y: 733
+        y: 731
         width: 59
-        height: 92
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +332,10 @@ TextureImporter:
       name: Mobile - Zombie Tsunami - HUD_10
       rect:
         serializedVersion: 2
-        x: 741
-        y: 332
-        width: 78
-        height: 102
+        x: 737
+        y: 334
+        width: 82
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: Mobile - Zombie Tsunami - HUD_11
       rect:
         serializedVersion: 2
-        x: 824
-        y: 336
-        width: 82
-        height: 96
+        x: 821
+        y: 335
+        width: 81
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +374,10 @@ TextureImporter:
       name: Mobile - Zombie Tsunami - HUD_12
       rect:
         serializedVersion: 2
-        x: 910
-        y: 339
-        width: 86
-        height: 94
+        x: 904
+        y: 337
+        width: 92
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: Mobile - Zombie Tsunami - HUD_13
       rect:
         serializedVersion: 2
-        x: 454
-        y: 333
-        width: 95
-        height: 97
+        x: 452
+        y: 332
+        width: 97
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,7 +587,7 @@ TextureImporter:
         x: 199
         y: 244
         width: 85
-        height: 89
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1975,7 +1975,7 @@ TextureImporter:
         width: 41
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1983,6 +1983,27 @@ TextureImporter:
       bones: []
       spriteID: 58be4b09498019940b690480db74be97
       internalID: -1762214377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - HUD_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 816
+        width: 83
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7018efb859e1e4d9080378b477e456
+      internalID: -235302791
       vertices: []
       indices: 
       edges: []
@@ -2071,6 +2092,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - HUD_55: -351217401
       Mobile - Zombie Tsunami - HUD_60: -891744398
       Mobile - Zombie Tsunami - HUD_88: -1762214377
+      Mobile - Zombie Tsunami - HUD_89: -235302791
       Mobile - Zombie Tsunami - HUD_20: -316542325
       Mobile - Zombie Tsunami - HUD_71: 1578449566
       Mobile - Zombie Tsunami - HUD_10: 1776471058
