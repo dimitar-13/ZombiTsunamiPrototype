@@ -1,37 +1,23 @@
-using Assets.Scripts.Core;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 namespace ZombieTsunami.UI
 {
-
-    public class ZombieCountSpriteUpdater : MonoBehaviour
+    public class NumberToSpriteConverter
     {
-        [SerializeField]
-        private Sprite [] numberSprites;
-        [SerializeField]
-        private UiManager uiManager;
-        [SerializeField]
-        private GameObject spriteToUpdate;
-        private  Color[] spriteSheetPixels;
+        private Sprite[] numberSprites;
+        private Color[] spriteSheetPixels;
 
-        private void Start()
+        public NumberToSpriteConverter(Sprite[] numberSprites)
         {
-            Events.OnHumanEaten += TransformNumbersIntoSprites;
+            this.numberSprites = numberSprites;
             spriteSheetPixels = numberSprites[0].texture.GetPixels();
         }
-
-        private void TransformNumbersIntoSprites()
+        public Sprite TransformNumbersIntoSprites(int number)
         {
-            //int number = 2;
-            uiManager.ZombiCount = 20;
-            if (uiManager.ZombiCount > 9)
+            if (number > 9)
             {
-
-                int[] individualDigits = ReturnIndividualDigits(uiManager.ZombiCount);
+                int[] individualDigits = ReturnIndividualDigits(number);
 
                 int totalWidth = 0;
                 Sprite[] sprites = new Sprite[individualDigits.Length];
@@ -42,26 +28,20 @@ namespace ZombieTsunami.UI
                     sprites[itterator] = numberSprites[digit];
                     itterator++;
                 }
-
-                // Copy the pixels of the digit sprite into the combined texture
-
                 var texture = CombineSpritesInOneTexture(sprites, totalWidth);
 
-                // Create a new sprite using the combined texture
-                Sprite combinedSprite = Sprite.Create(texture, new Rect(0, 0, totalWidth, 105), Vector2.zero);
-
-                // Set the combined sprite to the GameObject's SpriteRenderer component
-                spriteToUpdate.GetComponent<SpriteRenderer>().sprite = combinedSprite;
+                Sprite combinedSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one / 2);
+                return combinedSprite;
             }
             else
             {
-                spriteToUpdate.gameObject.GetComponent<SpriteRenderer>().sprite = numberSprites[uiManager.ZombiCount];
+                return numberSprites[number];
             }
         }
 
         private void SetAllPixelsTransparent(Texture2D texture)
         {
-            Color transparentColor = new Color(0, 0, 0, 0); // Fully transparent color
+            Color transparentColor = new Color(0, 0, 0, 0);
 
             for (int x = 0; x < texture.width; x++)
             {
@@ -75,26 +55,23 @@ namespace ZombieTsunami.UI
         private int[] ReturnIndividualDigits(int number)
         {
             Stack<int> individualNums = new Stack<int>();
-        
+
             while (number > 9)
             {
-                int floatingNum = number %10;
-                Debug.Log(floatingNum);
-              //  Math.DivRem(number,10, out floatingNum);
+                int floatingNum = number % 10;
                 number /= 10;
-                individualNums.Push(floatingNum);          
+                individualNums.Push(floatingNum);
             }
             individualNums.Push(number);
             return individualNums.ToArray();
         }
-
-
-        private Texture2D CombineSpritesInOneTexture(Sprite[] spritesToCombine,int totalWidth)
+        private Texture2D CombineSpritesInOneTexture(Sprite[] spritesToCombine, int totalWidth)
         {
             int startX = 0;
             int newTextureXItterator = 0;
             int newTextureYItterator = 0;
             var newTexture = new Texture2D(totalWidth, 105);
+            //If any pixels are unsigned they get gray be converting each pixel with alpha value of 0 we can avoid that
             SetAllPixelsTransparent(newTexture);
 
             foreach (var sprite in spritesToCombine)
@@ -118,6 +95,5 @@ namespace ZombieTsunami.UI
             newTexture.Apply();
             return newTexture;
         }
-
     }
 }
