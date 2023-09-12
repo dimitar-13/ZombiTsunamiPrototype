@@ -5810,7 +5810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_493
+      name: Golden_Back_Leg
       rect:
         serializedVersion: 2
         x: 521
@@ -12644,6 +12644,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1094: -1799447438
       Mobile - Zombie Tsunami - Characters_200: -338789284
       Mobile - Zombie Tsunami - Characters_301: 559142995
+      Golden_Back_Leg: -355761251
       Mobile - Zombie Tsunami - Characters_95: 2018668995
       Mobile - Zombie Tsunami - Characters_283: -587553603
       Mobile - Zombie Tsunami - Characters_657: -939709953
@@ -12676,7 +12677,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_478: -787170457
       Mobile - Zombie Tsunami - Characters_711: -130679216
       Mobile - Zombie Tsunami - Characters_632: -79330890
-      Mobile - Zombie Tsunami - Characters_493: -978591922
       Mobile - Zombie Tsunami - Characters_1012: 1631751731
       Mobile - Zombie Tsunami - Characters_967: 783623806
       Mobile - Zombie Tsunami - Characters_105: -1340137282
