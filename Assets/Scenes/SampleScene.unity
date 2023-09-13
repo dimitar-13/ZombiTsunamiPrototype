@@ -1165,6 +1165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 397420824}
+  - component: {fileID: 397420825}
   m_Layer: 0
   m_Name: HumanBluePrint
   m_TagString: Untagged
@@ -1191,6 +1192,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397420825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397420823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159ef8ff24358f749bb054553ecfa7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heads:
+  - {fileID: -1768643087, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 410814195, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1041076367, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1317683489, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 1331127591, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 1552707965, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1247782794, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  mouth: []
+  eyes: []
+  pupils: []
+  bodies:
+  - {fileID: -1817583234, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 452883271, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1176180033, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  noses:
+  - {fileID: 1158076737, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 51418626, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1791346730, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -402947570, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 2029468697, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: 23125057, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1409200616, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  - {fileID: -1157942173, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
+  blueprint:
+  - {fileID: 1974207096}
+  - {fileID: 920348225}
+  - {fileID: 1602272920}
 --- !u!1 &454273697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2654,7 +2695,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1593607777, guid: 1e88975a342a63e4dacf3a172bbdfdcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2841,7 +2882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920348223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.422, y: 0.07, z: 0}
+  m_LocalPosition: {x: -0.414, y: 0.047, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

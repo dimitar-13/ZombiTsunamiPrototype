@@ -3143,7 +3143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_26
+      name: Pupil_5
       rect:
         serializedVersion: 2
         x: 1132
@@ -3206,7 +3206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_29
+      name: Pupil_6
       rect:
         serializedVersion: 2
         x: 1132
@@ -3248,7 +3248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_31
+      name: Pupil_7
       rect:
         serializedVersion: 2
         x: 1132
@@ -3290,7 +3290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_33
+      name: Pupil_8
       rect:
         serializedVersion: 2
         x: 2024
@@ -3311,7 +3311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_34
+      name: Pupil_9
       rect:
         serializedVersion: 2
         x: 2024
@@ -4256,13 +4256,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_146
+      name: Pupil_10
       rect:
         serializedVersion: 2
         x: 2024
-        y: 1302
+        y: 1321
         width: 24
-        height: 43
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4445,7 +4445,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_128
+      name: Pupil_3
       rect:
         serializedVersion: 2
         x: 57
@@ -4487,7 +4487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_130
+      name: Pupil_4
       rect:
         serializedVersion: 2
         x: 57
@@ -5348,7 +5348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_385
+      name: Pupil_1
       rect:
         serializedVersion: 2
         x: 1764
@@ -5474,7 +5474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_403
+      name: Pupil_2
       rect:
         serializedVersion: 2
         x: 1763
@@ -5894,11 +5894,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_515
+      name: Hair_Sprite_Female_2
       rect:
         serializedVersion: 2
         x: 95
-        y: 1409
+        y: 1410
         width: 115
         height: 119
       alignment: 0
@@ -6146,11 +6146,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_554
+      name: Hair_Sprite_Female_1
       rect:
         serializedVersion: 2
         x: 1931
-        y: 1301
+        y: 1302
         width: 93
         height: 116
       alignment: 0
@@ -6398,7 +6398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_596
+      name: Pupil_16
       rect:
         serializedVersion: 2
         x: 726
@@ -6440,7 +6440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_598
+      name: Pupil_14
       rect:
         serializedVersion: 2
         x: 725
@@ -6482,7 +6482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_600
+      name: Pupil_11
       rect:
         serializedVersion: 2
         x: 867
@@ -6671,7 +6671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_620
+      name: Pupil_17
       rect:
         serializedVersion: 2
         x: 726
@@ -6713,7 +6713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_622
+      name: Pupil_12
       rect:
         serializedVersion: 2
         x: 866
@@ -6818,7 +6818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_638
+      name: Pupil_13
       rect:
         serializedVersion: 2
         x: 1802
@@ -6881,7 +6881,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_644
+      name: Hair_Sprite_Female_3
       rect:
         serializedVersion: 2
         x: 715
@@ -6944,7 +6944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_654
+      name: Hair_Sprite_Male_1
       rect:
         serializedVersion: 2
         x: 106
@@ -7028,7 +7028,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_662
+      name: Human_Sprite_Body_1
       rect:
         serializedVersion: 2
         x: 1172
@@ -7259,11 +7259,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_675
+      name: Human_Sprite_Body_2
       rect:
         serializedVersion: 2
-        x: 632
-        y: 819
+        x: 633
+        y: 820
         width: 49
         height: 80
       alignment: 0
@@ -7280,7 +7280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_676
+      name: Hair_Sprite_Male_3
       rect:
         serializedVersion: 2
         x: 1100
@@ -7385,7 +7385,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_687
+      name: Hair_Sprite_Male_2
       rect:
         serializedVersion: 2
         x: 289
@@ -7721,7 +7721,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_724
+      name: Pupil_19
       rect:
         serializedVersion: 2
         x: 2021
@@ -7805,7 +7805,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_733
+      name: Human_Sprite_Body_3
       rect:
         serializedVersion: 2
         x: 254
@@ -7847,7 +7847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_736
+      name: Hair_Sprite_Male_4
       rect:
         serializedVersion: 2
         x: 315
@@ -7868,7 +7868,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_737
+      name: Human_Sprite_Body_4
       rect:
         serializedVersion: 2
         x: 418
@@ -8225,7 +8225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_767
+      name: Pupil_20
       rect:
         serializedVersion: 2
         x: 1934
@@ -8729,7 +8729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_820
+      name: Human_Sprite_Body_5
       rect:
         serializedVersion: 2
         x: 1539
@@ -10619,11 +10619,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Zombie Tsunami - Characters_987
+      name: Human_Sprite_Body_7
       rect:
         serializedVersion: 2
         x: 741
-        y: 133
+        y: 134
         width: 49
         height: 49
       alignment: 0
@@ -12440,9 +12440,8 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_328: -111251571
       Mobile - Zombie Tsunami - Characters_416: -95093503
       Mobile - Zombie Tsunami - Characters_989: 458617812
-      Mobile - Zombie Tsunami - Characters_820: -186385038
-      Mobile - Zombie Tsunami - Characters_903: 1122838084
       Mobile - Zombie Tsunami - Characters_1019: -1068558711
+      Mobile - Zombie Tsunami - Characters_903: 1122838084
       Mobile - Zombie Tsunami - Characters_1020: 258572478
       Mobile - Zombie Tsunami - Characters_661: 1050432302
       Mobile - Zombie Tsunami - Characters_940: -1640263005
@@ -12461,13 +12460,13 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_681: 895035394
       Mobile - Zombie Tsunami - Characters_774: 1465069687
       Mobile - Zombie Tsunami - Characters_186: -348106458
-      Mobile - Zombie Tsunami - Characters_675: 1950065830
       Mobile - Zombie Tsunami - Characters_78: -653584257
       Mobile - Zombie Tsunami - Characters_160: -596337189
       Mobile - Zombie Tsunami - Characters_1003: 1587803517
       Mobile - Zombie Tsunami - Characters_826: 207208945
       Mobile - Zombie Tsunami - Characters_399: 2047877569
       Mobile - Zombie Tsunami - Characters_908: -530147795
+      Human_Sprite_Body_3: 795565119
       Mobile - Zombie Tsunami - Characters_1030: 1557789208
       Mobile - Zombie Tsunami - Characters_1036: -1339519281
       Mobile - Zombie Tsunami - Characters_653: -1155640350
@@ -12506,6 +12505,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1072: -79411824
       Mobile - Zombie Tsunami - Characters_299: -2115079474
       Mobile - Zombie Tsunami - Characters_991: 148163638
+      Pupil_3: -1592375136
       Mobile - Zombie Tsunami - Characters_184: -1543464529
       Mobile - Zombie Tsunami - Characters_695: 1396162499
       Mobile - Zombie Tsunami - Characters_956: 2056396166
@@ -12549,47 +12549,46 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_463: -1057767290
       Mobile - Zombie Tsunami - Characters_1121: -821938532
       Mobile - Zombie Tsunami - Characters_503: -36973003
-      Mobile - Zombie Tsunami - Characters_687: 974382700
       Mobile - Zombie Tsunami - Characters_367: -2059974988
       Mobile - Zombie Tsunami - Characters_55: -1232854923
       Zombie_Head16: 601617437
       Mobile - Zombie Tsunami - Characters_918: 1588258560
       Mobile - Zombie Tsunami - Characters_971: -196620088
       Zombie_Head34: -726726355
-      Mobile - Zombie Tsunami - Characters_962: -1300524174
-      Mobile - Zombie Tsunami - Characters_190: 1596652516
-      Mobile - Zombie Tsunami - Characters_235: -1505789111
       Mobile - Zombie Tsunami - Characters_963: 1128781609
+      Mobile - Zombie Tsunami - Characters_190: 1596652516
+      Mobile - Zombie Tsunami - Characters_962: -1300524174
+      Mobile - Zombie Tsunami - Characters_625: -931457911
       Mobile - Zombie Tsunami - Characters_198: -1598888784
       Mobile - Zombie Tsunami - Characters_791: 611355386
-      Mobile - Zombie Tsunami - Characters_625: -931457911
       Mobile - Zombie Tsunami - Characters_439: 760637468
-      Mobile - Zombie Tsunami - Characters_102: 201671213
       Mobile - Zombie Tsunami - Characters_976: -1400063832
+      Mobile - Zombie Tsunami - Characters_1064: -235716119
       Mobile - Zombie Tsunami - Characters_808: -1489539798
+      Mobile - Zombie Tsunami - Characters_235: -1505789111
       Mobile - Zombie Tsunami - Characters_89: -298006437
-      Mobile - Zombie Tsunami - Characters_953: 1980375262
       Mobile - Zombie Tsunami - Characters_771: 836661798
       Mobile - Zombie Tsunami - Characters_390: -1003177147
+      Mobile - Zombie Tsunami - Characters_953: 1980375262
       Mobile - Zombie Tsunami - Characters_969: 1558361273
-      Mobile - Zombie Tsunami - Characters_1064: -235716119
       Mobile - Zombie Tsunami - Characters_885: 1044672605
       Mobile - Zombie Tsunami - Characters_88: 1250035209
       Mobile - Zombie Tsunami - Characters_721: 2065729136
       Mobile - Zombie Tsunami - Characters_764: -1200073768
       Mobile - Zombie Tsunami - Characters_865: 1353361659
       Mobile - Zombie Tsunami - Characters_936: -995808243
+      Mobile - Zombie Tsunami - Characters_102: 201671213
       Mobile - Zombie Tsunami - Characters_939: -1026844080
       Mobile - Zombie Tsunami - Characters_934: -1888004906
       Mobile - Zombie Tsunami - Characters_320: 1180710861
       Mobile - Zombie Tsunami - Characters_212: 840025969
       Mobile - Zombie Tsunami - Characters_938: -755488101
+      Pupil_7: 65804362
       Mobile - Zombie Tsunami - Characters_804: 267396857
       Mobile - Zombie Tsunami - Characters_250: 1717435001
       Mobile - Zombie Tsunami - Characters_680: -1437294857
       Mobile - Zombie Tsunami - Characters_487: -1568552256
       Zombie_Head64: -1908733148
-      Mobile - Zombie Tsunami - Characters_29: -2112452309
       Mobile - Zombie Tsunami - Characters_1070: -968815526
       Mobile - Zombie Tsunami - Characters_58: 1575608564
       Mobile - Zombie Tsunami - Characters_286: -2125942709
@@ -12603,7 +12602,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_642: -1030244549
       Mobile - Zombie Tsunami - Characters_254: -1246437261
       Mobile - Zombie Tsunami - Characters_344: 1151870939
-      Mobile - Zombie Tsunami - Characters_598: -2108715513
       Mobile - Zombie Tsunami - Characters_12: -1491505585
       Mobile - Zombie Tsunami - Characters_539: -1896036725
       Human_Head_2: -1041076367
@@ -12655,6 +12653,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1027: 1031607200
       Mobile - Zombie Tsunami - Characters_99: -1699535119
       Mobile - Zombie Tsunami - Characters_258: 1190935644
+      Hair_Sprite_Male_4: -322702734
       Mobile - Zombie Tsunami - Characters_425: -1654919107
       Mobile - Zombie Tsunami - Characters_664: -82612671
       Mobile - Zombie Tsunami - Characters_1103: -431767454
@@ -12677,52 +12676,54 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_849: -1241751510
       Mobile - Zombie Tsunami - Characters_478: -787170457
       Mobile - Zombie Tsunami - Characters_711: -130679216
+      Pupil_8: -1921812009
       Mobile - Zombie Tsunami - Characters_632: -79330890
       Mobile - Zombie Tsunami - Characters_1012: 1631751731
       Mobile - Zombie Tsunami - Characters_967: 783623806
+      Mobile - Zombie Tsunami - Characters_905: 468535208
       Mobile - Zombie Tsunami - Characters_105: -1340137282
       Mobile - Zombie Tsunami - Characters_389: -485186947
       Mobile - Zombie Tsunami - Characters_284: -53675110
       Mobile - Zombie Tsunami - Characters_1068: -60173050
       Zombie_Head4: 2038420262
+      Human_Head_3: -1317683489
       Mobile - Zombie Tsunami - Characters_832: 2133480369
       Mobile - Zombie Tsunami - Characters_618: 1579452784
       Mobile - Zombie Tsunami - Characters_240: 1350553031
       Mobile - Zombie Tsunami - Characters_15: -2022700172
       Mobile - Zombie Tsunami - Characters_174: 320506917
-      Mobile - Zombie Tsunami - Characters_958: 699799457
       Mobile - Zombie Tsunami - Characters_38: -1634240759
       Mobile - Zombie Tsunami - Characters_902: -1804771481
-      Mobile - Zombie Tsunami - Characters_905: 468535208
-      Mobile - Zombie Tsunami - Characters_724: 1940718863
+      Mobile - Zombie Tsunami - Characters_958: 699799457
       Mobile - Zombie Tsunami - Characters_17: 84555730
       Mobile - Zombie Tsunami - Characters_42: -1018271881
       Mobile - Zombie Tsunami - Characters_313: -2069786959
-      Mobile - Zombie Tsunami - Characters_396: -818989887
       Mobile - Zombie Tsunami - Characters_961: -1307895118
+      Mobile - Zombie Tsunami - Characters_396: -818989887
       Mobile - Zombie Tsunami - Characters_169: 1846447306
       Mobile - Zombie Tsunami - Characters_631: -932075520
       Mobile - Zombie Tsunami - Characters_683: 1435915210
       Mobile - Zombie Tsunami - Characters_1085: -1197559074
       Mobile - Zombie Tsunami - Characters_835: 153685275
-      Human_Head_3: -1317683489
       Mobile - Zombie Tsunami - Characters_215: -1488533429
       Mobile - Zombie Tsunami - Characters_537: -319002473
       Mobile - Zombie Tsunami - Characters_673: -1592500737
-      Mobile - Zombie Tsunami - Characters_1080: -877069891
       Mobile - Zombie Tsunami - Characters_1077: -1081073769
       Mobile - Zombie Tsunami - Characters_319: -397621365
       Mobile - Zombie Tsunami - Characters_75: -333918281
-      Mobile - Zombie Tsunami - Characters_316: 2098814566
+      Mobile - Zombie Tsunami - Characters_925: -1973798658
       Mobile - Zombie Tsunami - Characters_702: -1119810645
       Mobile - Zombie Tsunami - Characters_623: 1236397642
       Mobile - Zombie Tsunami - Characters_553: 575727697
       Mobile - Zombie Tsunami - Characters_234: 808202049
+      Mobile - Zombie Tsunami - Characters_316: 2098814566
+      Human_Sprite_Body_1: 452883271
       Mobile - Zombie Tsunami - Characters_363: -3006766
-      Mobile - Zombie Tsunami - Characters_925: -1973798658
+      Mobile - Zombie Tsunami - Characters_1080: -877069891
       Mobile - Zombie Tsunami - Characters_1054: 193325768
       Mobile - Zombie Tsunami - Characters_203: 1132942888
       Mobile - Zombie Tsunami - Characters_442: -1021013452
+      Pupil_1: -1242676955
       Mobile - Zombie Tsunami - Characters_143: 531422761
       Mobile - Zombie Tsunami - Characters_742: 1761384068
       Mobile - Zombie Tsunami - Characters_1033: -746415736
@@ -12763,7 +12764,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1052: 803684061
       Mobile - Zombie Tsunami - Characters_97: 2061448035
       Mobile - Zombie Tsunami - Characters_607: 1589386664
-      Mobile - Zombie Tsunami - Characters_638: -1801513351
+      Pupil_4: -1047159614
       Mobile - Zombie Tsunami - Characters_44: 1013782598
       Mobile - Zombie Tsunami - Characters_910: -1424202024
       Mobile - Zombie Tsunami - Characters_787: 1300207466
@@ -12786,7 +12787,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_720: -1433541352
       Mobile - Zombie Tsunami - Characters_339: -1806540244
       Mobile - Zombie Tsunami - Characters_1023: -1793308465
-      Mobile - Zombie Tsunami - Characters_622: -1863987952
       Mobile - Zombie Tsunami - Characters_534: -1767712703
       Mobile - Zombie Tsunami - Characters_498: -1561363256
       Mobile - Zombie Tsunami - Characters_206: 935207780
@@ -12794,6 +12794,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_273: -1562434027
       Mobile - Zombie Tsunami - Characters_839: 1568635377
       Mobile - Zombie Tsunami - Characters_54: 1326607702
+      Pupil_14: -2038026044
       Mobile - Zombie Tsunami - Characters_472: 902736434
       Zombie_Head9: -170154400
       Mobile - Zombie Tsunami - Characters_793: 1302956790
@@ -12820,6 +12821,7 @@ TextureImporter:
       Zombie_Head33: -197411323
       Mobile - Zombie Tsunami - Characters_878: -263332520
       Mobile - Zombie Tsunami - Characters_587: 42196017
+      Human_Sprite_Body_2: -1817583234
       Mobile - Zombie Tsunami - Characters_379: 960608751
       Mobile - Zombie Tsunami - Characters_773: 468834698
       Mobile - Zombie Tsunami - Characters_690: -280181579
@@ -12849,6 +12851,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_873: -1593102094
       Mobile - Zombie Tsunami - Characters_474: -81696618
       Mobile - Zombie Tsunami - Characters_357: -735960873
+      Human_Sprite_Body_5: 961737447
       Mobile - Zombie Tsunami - Characters_322: -544780123
       Mobile - Zombie Tsunami - Characters_353: -179820624
       Mobile - Zombie Tsunami - Characters_1123: 2089608415
@@ -12893,7 +12896,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_0: -1018691049
       Mobile - Zombie Tsunami - Characters_1053: 861303093
       Mobile - Zombie Tsunami - Characters_884: 81030117
-      Mobile - Zombie Tsunami - Characters_600: 702727766
+      Mobile - Zombie Tsunami - Characters_838: 595182046
       Mobile - Zombie Tsunami - Characters_514: 255372503
       Mobile - Zombie Tsunami - Characters_76: -1963461059
       Mobile - Zombie Tsunami - Characters_694: -866126597
@@ -12906,7 +12909,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_759: -1605133181
       Mobile - Zombie Tsunami - Characters_569: 1176874052
       Mobile - Zombie Tsunami - Characters_10: 1101928822
-      Mobile - Zombie Tsunami - Characters_838: 595182046
+      Mobile - Zombie Tsunami - Characters_841: 1012774825
       Mobile - Zombie Tsunami - Characters_666: -1839966031
       Mobile - Zombie Tsunami - Characters_419: 438352464
       Mobile - Zombie Tsunami - Characters_5: 343345882
@@ -12919,13 +12922,12 @@ TextureImporter:
       Zombie_Head19: -1151490486
       Mobile - Zombie Tsunami - Characters_243: 1659021623
       Mobile - Zombie Tsunami - Characters_314: -407459207
-      Mobile - Zombie Tsunami - Characters_841: 1012774825
+      Mobile - Zombie Tsunami - Characters_964: 1175079486
       Mobile - Zombie Tsunami - Characters_18: -466935199
       Mobile - Zombie Tsunami - Characters_471: -842867631
       Mobile - Zombie Tsunami - Characters_730: 1193615387
       Mobile - Zombie Tsunami - Characters_555: 275795950
       Mobile - Zombie Tsunami - Characters_1002: 1316693163
-      Mobile - Zombie Tsunami - Characters_964: 1175079486
       Mobile - Zombie Tsunami - Characters_1083: 2134426355
       Mobile - Zombie Tsunami - Characters_40: -862926206
       Mobile - Zombie Tsunami - Characters_188: -323263588
@@ -12937,7 +12939,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_225: -1074456521
       Zombie_Head61: -81746252
       Mobile - Zombie Tsunami - Characters_276: 313889072
-      Mobile - Zombie Tsunami - Characters_34: 1933842010
       Mobile - Zombie Tsunami - Characters_407: -2127344019
       Mobile - Zombie Tsunami - Characters_729: 1495761470
       Mobile - Zombie Tsunami - Characters_755: 531015249
@@ -12952,18 +12953,20 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1096: -65991178
       Mobile - Zombie Tsunami - Characters_1016: -669249022
       Mobile - Zombie Tsunami - Characters_869: 1890920644
-      Mobile - Zombie Tsunami - Characters_403: 99450575
+      Mobile - Zombie Tsunami - Characters_930: 1163201050
       Mobile - Zombie Tsunami - Characters_423: 1037318055
       Mobile - Zombie Tsunami - Characters_612: 355334706
       Mobile - Zombie Tsunami - Characters_986: 39323041
       Mobile - Zombie Tsunami - Characters_1093: -598250177
-      Mobile - Zombie Tsunami - Characters_930: 1163201050
+      Hair_Sprite_Male_1: 563609272
+      Hair_Sprite_Female_1: -490365682
       Mobile - Zombie Tsunami - Characters_1091: 1013955802
       Mobile - Zombie Tsunami - Characters_509: -1604006439
       Mobile - Zombie Tsunami - Characters_898: 1323429634
       Mobile - Zombie Tsunami - Characters_69: -1192047414
       Mobile - Zombie Tsunami - Characters_717: 1991168367
       Mobile - Zombie Tsunami - Characters_575: 1404757294
+      Pupil_5: -382264492
       Mobile - Zombie Tsunami - Characters_581: 498778492
       Mobile - Zombie Tsunami - Characters_123: -1244840541
       Mobile - Zombie Tsunami - Characters_81: 1043471023
@@ -12977,6 +12980,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_799: -569466979
       Zombie_Head35: 819157513
       Mobile - Zombie Tsunami - Characters_197: -1184598790
+      Pupil_19: -1808372742
       Mobile - Zombie Tsunami - Characters_833: 735333344
       Mobile - Zombie Tsunami - Characters_368: -2034638494
       Mobile - Zombie Tsunami - Characters_844: 2029523719
@@ -12992,6 +12996,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_218: -388392452
       Mobile - Zombie Tsunami - Characters_557: -1520465742
       Mobile - Zombie Tsunami - Characters_201: -793985471
+      Pupil_17: 1076456075
       Mobile - Zombie Tsunami - Characters_370: 759266742
       Mobile - Zombie Tsunami - Characters_576: 2028731039
       Mobile - Zombie Tsunami - Characters_227: -1304919971
@@ -13001,15 +13006,15 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_204: -133190011
       Mobile - Zombie Tsunami - Characters_719: -288900259
       Mobile - Zombie Tsunami - Characters_232: -779540354
+      Pupil_11: -1021197698
       Start_Running: -147913189
       Mobile - Zombie Tsunami - Characters_167: 1186898298
       Mobile - Zombie Tsunami - Characters_798: 661313186
       Mobile - Zombie Tsunami - Characters_1067: -1507924263
       Mobile - Zombie Tsunami - Characters_271: -530876822
       Mobile - Zombie Tsunami - Characters_310: -161353445
-      Mobile - Zombie Tsunami - Characters_33: -1504298668
-      Mobile - Zombie Tsunami - Characters_109: -261392055
       Mobile - Zombie Tsunami - Characters_382: -1918205343
+      Mobile - Zombie Tsunami - Characters_109: -261392055
       Mobile - Zombie Tsunami - Characters_152: 1643811160
       Mobile - Zombie Tsunami - Characters_746: 1273694603
       Mobile - Zombie Tsunami - Characters_931: 1315817305
@@ -13019,6 +13024,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_82: 399061636
       Zombie_Head36: 1305107928
       Mobile - Zombie Tsunami - Characters_237: 1218101300
+      Pupil_13: -898988951
       Mobile - Zombie Tsunami - Characters_1118: -1097573403
       Mobile - Zombie Tsunami - Characters_526: -1985286684
       Mobile - Zombie Tsunami - Characters_897: 516175360
@@ -13026,19 +13032,23 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_84: -1805639069
       Mobile - Zombie Tsunami - Characters_921: 1966006551
       Mobile - Zombie Tsunami - Characters_285: 524108905
+      Pupil_6: -1687528175
       Mobile - Zombie Tsunami - Characters_1099: -1139373631
       Mobile - Zombie Tsunami - Characters_516: 259395549
       Mobile - Zombie Tsunami - Characters_1032: -353734066
       Mobile - Zombie Tsunami - Characters_725: -697582176
+      Pupil_20: 2035023208
       Mobile - Zombie Tsunami - Characters_129: -1557298937
       Mobile - Zombie Tsunami - Characters_488: -1082400140
       Mobile - Zombie Tsunami - Characters_604: 1036838082
       Mobile - Zombie Tsunami - Characters_993: 196600964
       Mobile - Zombie Tsunami - Characters_626: -1983584620
       Mobile - Zombie Tsunami - Characters_1098: 880977583
+      Hair_Sprite_Female_2: 1653543841
       Zombie_Head17: -326365289
       Mobile - Zombie Tsunami - Characters_361: 1217052521
       Mobile - Zombie Tsunami - Characters_855: 1611347103
+      Hair_Sprite_Male_3: 911544902
       Mobile - Zombie Tsunami - Characters_158: 893999479
       Zombie_Head54: -1421332836
       Mobile - Zombie Tsunami - Characters_599: -1701661501
@@ -13047,8 +13057,8 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_828: -439298062
       Mobile - Zombie Tsunami - Characters_570: -1439144328
       Mobile - Zombie Tsunami - Characters_354: -247215982
-      Mobile - Zombie Tsunami - Characters_130: -1047159614
       Mobile - Zombie Tsunami - Characters_473: -123466720
+      Mobile - Zombie Tsunami - Characters_1086: 1448942757
       Mobile - Zombie Tsunami - Characters_118: -1438037821
       Mobile - Zombie Tsunami - Characters_411: 1458021001
       Mobile - Zombie Tsunami - Characters_116: 882617734
@@ -13061,11 +13071,11 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_609: 705037706
       Mobile - Zombie Tsunami - Characters_1126: 1929445870
       Mobile - Zombie Tsunami - Characters_982: 1931807997
+      Hair_Sprite_Male_2: 1906894779
       Mobile - Zombie Tsunami - Characters_266: 1729669735
       Mobile - Zombie Tsunami - Characters_1039: -1458069634
       Mobile - Zombie Tsunami - Characters_685: 803102637
       Mobile - Zombie Tsunami - Characters_318: 1405087603
-      Mobile - Zombie Tsunami - Characters_1086: 1448942757
       Mobile - Zombie Tsunami - Characters_700: -1482617929
       Mobile - Zombie Tsunami - Characters_585: -1776987475
       Mobile - Zombie Tsunami - Characters_458: 1756924709
@@ -13079,11 +13089,10 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1024: -1358875513
       Mobile - Zombie Tsunami - Characters_861: 1078494420
       Mobile - Zombie Tsunami - Characters_974: -1972490103
-      Mobile - Zombie Tsunami - Characters_733: 46321312
+      Mobile - Zombie Tsunami - Characters_877: -288328107
       Mobile - Zombie Tsunami - Characters_597: 1736205144
       Mobile - Zombie Tsunami - Characters_110: 719979568
       Mobile - Zombie Tsunami - Characters_870: -1398181121
-      Mobile - Zombie Tsunami - Characters_877: -288328107
       Mobile - Zombie Tsunami - Characters_965: -1146872120
       Mobile - Zombie Tsunami - Characters_983: -1253450864
       Mobile - Zombie Tsunami - Characters_567: 766539732
@@ -13092,13 +13101,12 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_655: 187069313
       Mobile - Zombie Tsunami - Characters_125: -612980613
       Mobile - Zombie Tsunami - Characters_1107: 1367517860
-      Mobile - Zombie Tsunami - Characters_676: 1743908641
       Mobile - Zombie Tsunami - Characters_745: -1889281394
       Mobile - Zombie Tsunami - Characters_246: 1363330610
       Mobile - Zombie Tsunami - Characters_563: -1375038038
       Mobile - Zombie Tsunami - Characters_749: 1024090682
       Mobile - Zombie Tsunami - Characters_280: -318418042
-      Mobile - Zombie Tsunami - Characters_385: -1177654340
+      Mobile - Zombie Tsunami - Characters_763: -640004809
       Mobile - Zombie Tsunami - Characters_646: 1599393300
       Mobile - Zombie Tsunami - Characters_65: -210008779
       Mobile - Zombie Tsunami - Characters_1055: 1126031
@@ -13107,8 +13115,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_822: 785278860
       Mobile - Zombie Tsunami - Characters_959: 1019357348
       Mobile - Zombie Tsunami - Characters_233: -112350374
-      Mobile - Zombie Tsunami - Characters_654: 1062975411
-      Mobile - Zombie Tsunami - Characters_763: -640004809
       Mobile - Zombie Tsunami - Characters_296: 436936524
       Mobile - Zombie Tsunami - Characters_270: -1001140610
       Mobile - Zombie Tsunami - Characters_348: -1413420360
@@ -13136,6 +13142,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_39: -595754993
       Mobile - Zombie Tsunami - Characters_311: -1341814964
       Mobile - Zombie Tsunami - Characters_550: 2065103644
+      Pupil_2: -752342069
       Mobile - Zombie Tsunami - Characters_25: -885285047
       Mobile - Zombie Tsunami - Characters_697: 367053295
       Mobile - Zombie Tsunami - Characters_950: -1306347320
@@ -13146,7 +13153,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_866: -81927607
       Mobile - Zombie Tsunami - Characters_279: 2131160943
       Mobile - Zombie Tsunami - Characters_359: 191912283
-      Mobile - Zombie Tsunami - Characters_146: -2052505605
       Mobile - Zombie Tsunami - Characters_148: -1687528175
       Mobile - Zombie Tsunami - Characters_222: -1719160024
       Mobile - Zombie Tsunami - Characters_71: 346610547
@@ -13181,7 +13187,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_627: 1146563812
       Mobile - Zombie Tsunami - Characters_267: 893542228
       Mobile - Zombie Tsunami - Characters_508: 921674953
-      Mobile - Zombie Tsunami - Characters_644: -1455726083
       Mobile - Zombie Tsunami - Characters_848: 939003391
       Mobile - Zombie Tsunami - Characters_997: 1527907615
       Mobile - Zombie Tsunami - Characters_890: -554800161
@@ -13211,6 +13216,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_635: 568766089
       Mobile - Zombie Tsunami - Characters_602: 942002690
       Mobile - Zombie Tsunami - Characters_852: 464751094
+      Pupil_16: 273897041
       Mobile - Zombie Tsunami - Characters_829: -867920844
       Mobile - Zombie Tsunami - Characters_196: 416450067
       Mobile - Zombie Tsunami - Characters_375: -694856876
@@ -13254,6 +13260,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_61: 1918235048
       Mobile - Zombie Tsunami - Characters_499: -1995915180
       Mobile - Zombie Tsunami - Characters_185: -1099286150
+      Human_Sprite_Body_7: 311049306
       Mobile - Zombie Tsunami - Characters_613: -1616724163
       Zombie_Head52: 943749618
       Mobile - Zombie Tsunami - Characters_290: 256399852
@@ -13270,10 +13277,9 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_649: 275096905
       Mobile - Zombie Tsunami - Characters_300: 141671639
       Mobile - Zombie Tsunami - Characters_532: 1513970373
-      Mobile - Zombie Tsunami - Characters_31: -785476486
+      Mobile - Zombie Tsunami - Characters_291: 1564064804
       Mobile - Zombie Tsunami - Characters_23: -1551938210
       Mobile - Zombie Tsunami - Characters_327: 1712735983
-      Mobile - Zombie Tsunami - Characters_291: 1564064804
       Mobile - Zombie Tsunami - Characters_502: 2061261556
       Mobile - Zombie Tsunami - Characters_317: -239067900
       Mobile - Zombie Tsunami - Characters_716: 738757985
@@ -13281,6 +13287,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_713: -971220080
       Mobile - Zombie Tsunami - Characters_699: -2122196110
       Mobile - Zombie Tsunami - Characters_98: -1876354110
+      Pupil_10: 1467872991
       Mobile - Zombie Tsunami - Characters_274: 1621127711
       Mobile - Zombie Tsunami - Characters_340: -178619771
       Mobile - Zombie Tsunami - Characters_170: 1209614601
@@ -13295,6 +13302,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_113: -774561051
       Mobile - Zombie Tsunami - Characters_871: -132692582
       Mobile - Zombie Tsunami - Characters_1058: -98094226
+      Hair_Sprite_Female_3: 1577618915
       Mobile - Zombie Tsunami - Characters_886: 1463135974
       Mobile - Zombie Tsunami - Characters_41: 1234294667
       Mobile - Zombie Tsunami - Characters_351: 1893634841
@@ -13310,6 +13318,7 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_49: 1667194934
       Mobile - Zombie Tsunami - Characters_765: 945588927
       Mobile - Zombie Tsunami - Characters_214: 603315999
+      Pupil_9: -1716270848
       Mobile - Zombie Tsunami - Characters_715: 1997711311
       Mobile - Zombie Tsunami - Characters_588: -840802912
       Mobile - Zombie Tsunami - Characters_336: 241654426
@@ -13379,9 +13388,9 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_836: -1444074253
       Mobile - Zombie Tsunami - Characters_324: 395853518
       Mobile - Zombie Tsunami - Characters_854: 537454655
-      Mobile - Zombie Tsunami - Characters_662: 1383758922
       Mobile - Zombie Tsunami - Characters_978: 671076117
       Zombie_Head24: -753819831
+      Human_Sprite_Body_4: -1176180033
       Mobile - Zombie Tsunami - Characters_1013: -1082471077
       Mobile - Zombie Tsunami - Characters_306: -1357840822
       Mobile - Zombie Tsunami - Characters_548: -595674283
@@ -13401,13 +13410,12 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_807: -547823875
       Zombie_Head62: 1037279326
       Mobile - Zombie Tsunami - Characters_255: -1754467243
-      Mobile - Zombie Tsunami - Characters_596: 1657732394
-      Mobile - Zombie Tsunami - Characters_64: 382767771
       Mobile - Zombie Tsunami - Characters_633: 287586597
+      Mobile - Zombie Tsunami - Characters_64: 382767771
+      Mobile - Zombie Tsunami - Characters_880: 1498340744
       Mobile - Zombie Tsunami - Characters_643: 1533612063
       Mobile - Zombie Tsunami - Characters_999: -903818912
       Mobile - Zombie Tsunami - Characters_112: 2031505809
-      Mobile - Zombie Tsunami - Characters_880: 1498340744
       Mobile - Zombie Tsunami - Characters_236: 1019541858
       Mobile - Zombie Tsunami - Characters_278: -183469910
       Mobile - Zombie Tsunami - Characters_209: 837225818
@@ -13417,13 +13425,13 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1092: 1847512275
       Mobile - Zombie Tsunami - Characters_688: 1953072612
       Mobile - Zombie Tsunami - Characters_124: -271092234
+      Pupil_12: 1358520732
       Mobile - Zombie Tsunami - Characters_9: 2025730449
       Mobile - Zombie Tsunami - Characters_428: 208615797
       Mobile - Zombie Tsunami - Characters_811: 1373641273
       Mobile - Zombie Tsunami - Characters_857: -1499252342
       Mobile - Zombie Tsunami - Characters_309: -1551825866
       Mobile - Zombie Tsunami - Characters_504: 1263035141
-      Mobile - Zombie Tsunami - Characters_987: -904589219
       Zombie_Head47: 189169249
       Mobile - Zombie Tsunami - Characters_486: 1842898315
       Mobile - Zombie Tsunami - Characters_945: 698868350
@@ -13477,7 +13485,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_906: -1714985836
       Mobile - Zombie Tsunami - Characters_754: -1110421588
       Mobile - Zombie Tsunami - Characters_722: 1689474307
-      Mobile - Zombie Tsunami - Characters_554: -341064401
       Mobile - Zombie Tsunami - Characters_782: 1845304142
       Mobile - Zombie Tsunami - Characters_231: -1007205808
       Mobile - Zombie Tsunami - Characters_467: -1880872945
@@ -13503,7 +13510,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_1028: 924839755
       Mobile - Zombie Tsunami - Characters_926: 1180072516
       Mobile - Zombie Tsunami - Characters_365: -307633218
-      Mobile - Zombie Tsunami - Characters_515: -536759195
       Mobile - Zombie Tsunami - Characters_253: 1909691176
       Mobile - Zombie Tsunami - Characters_333: 1928608420
       Mobile - Zombie Tsunami - Characters_281: -1796994833
@@ -13519,16 +13525,13 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_660: -1653315898
       Mobile - Zombie Tsunami - Characters_608: -821642065
       Mobile - Zombie Tsunami - Characters_960: 415943232
-      Mobile - Zombie Tsunami - Characters_736: 1804446637
       Mobile - Zombie Tsunami - Characters_968: 1518819813
-      Mobile - Zombie Tsunami - Characters_767: 1018444073
       Mobile - Zombie Tsunami - Characters_914: -1139080625
-      Mobile - Zombie Tsunami - Characters_26: 2035740357
       Mobile - Zombie Tsunami - Characters_726: 1698692104
-      Mobile - Zombie Tsunami - Characters_704: 693368111
       Mobile - Zombie Tsunami - Characters_762: -1436775520
-      Mobile - Zombie Tsunami - Characters_932: 991488488
+      Mobile - Zombie Tsunami - Characters_704: 693368111
       Mobile - Zombie Tsunami - Characters_1050: -76991334
+      Mobile - Zombie Tsunami - Characters_932: 991488488
       Mobile - Zombie Tsunami - Characters_413: 1996281286
       Mobile - Zombie Tsunami - Characters_794: 1382504283
       Mobile - Zombie Tsunami - Characters_862: 1730225521
@@ -13554,7 +13557,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_3: 1275890189
       Mobile - Zombie Tsunami - Characters_52: 503251789
       Zombie_Head60: -511472825
-      Mobile - Zombie Tsunami - Characters_620: -1857967829
       Mobile - Zombie Tsunami - Characters_85: -1193994108
       Mobile - Zombie Tsunami - Characters_827: 611381000
       Mobile - Zombie Tsunami - Characters_985: 1610198941
@@ -13587,8 +13589,6 @@ TextureImporter:
       Mobile - Zombie Tsunami - Characters_431: 1366914025
       Mobile - Zombie Tsunami - Characters_350: 2040889021
       Mobile - Zombie Tsunami - Characters_619: -1592375136
-      Mobile - Zombie Tsunami - Characters_128: -1713903925
-      Mobile - Zombie Tsunami - Characters_737: -1768643087
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
