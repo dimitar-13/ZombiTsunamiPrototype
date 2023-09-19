@@ -40,8 +40,8 @@ namespace Assets.Scripts.InteractableObjectsScripts
 
         public void OnZombieTouchGround(GameObject playerGround)
         {
-            if(helper.IsPlayerOnSameGround(this.CurrrentGround, playerGround))
-            StartCoroutine(ShootVehicleAtPlayer());
+            //if(helper.IsPlayerOnSameGround(this.CurrrentGround, playerGround))
+            //StartCoroutine(ShootVehicleAtPlayer());
 
         }
 

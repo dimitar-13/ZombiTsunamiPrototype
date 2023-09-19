@@ -5,6 +5,7 @@ namespace ZombieTsunami.UI
 {
     public class NumberToSpriteConverter
     {
+        //TODO:Get sprites from resource folder
         private Sprite[] numberSprites;
         private Color[] spriteSheetPixels;
 
