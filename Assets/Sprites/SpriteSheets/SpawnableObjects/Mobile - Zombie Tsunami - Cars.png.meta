@@ -1,0 +1,3926 @@
+fileFormatVersion: 2
+guid: 638ec1ec91a26344b9001829ad9c1dd2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_0
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 797
+        width: 135
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc4918de42f21a4990acd2f95bd2631
+      internalID: 1042667426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 702
+        width: 160
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f555784e3a0d00419404656d07cc2a2
+      internalID: 478670710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 464
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b546830420f22c46bf787e4811b69b9
+      internalID: 1221725749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 458
+        width: 236
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662b1e1306bc8a043abc260a16321a9b
+      internalID: -2079587152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 338
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9ebee4ee5d59246a167e5e05e28ebd
+      internalID: -237755138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 354
+        width: 163
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67fbe3de3a1f5a448286fc48b74a5a4
+      internalID: 757631841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_6
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 344
+        width: 127
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd24a90bbd8dab4e9e910ce1bee2aaa
+      internalID: 1213371791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_7
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 355
+        width: 166
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55973bbae2c504443bbb93984364b598
+      internalID: 1384229876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_8
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 144
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0023c2e51ddf56448338b03ed6f5d57
+      internalID: 1047633763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 129
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a87283ee469d094abc68a8367165f6e
+      internalID: -808458119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 129
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391c5a57613d5aa4ba9739f4830ccc3f
+      internalID: -728334666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_11
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 182
+        width: 136
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b222ea0d75da408fe5321a87ee9d6
+      internalID: -234458468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_12
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 187
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340ae8ad33fa2244c9ae8f42b258f4f7
+      internalID: -1490518189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_13
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 725
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56f605d4ecdccc44ab772ea6ee0f870
+      internalID: 947032517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 183
+        width: 114
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24299a7b73d059746921bebd617109d8
+      internalID: -1867468411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 125
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a06f9f8920f3649ae1f83e2e9ba994
+      internalID: -120344042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_16
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 826
+        width: 44
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43051496dab4c214a8e11a3fd6af9730
+      internalID: -332659554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_17
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 981
+        width: 59
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13418605ac7e094e90fa5b0d1c56916
+      internalID: 1851295666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fae07febb563da4b89e96b091207dd3
+      internalID: 560951649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_20
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 461
+        width: 178
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f528e2703beec344be01a79ab5eb889
+      internalID: -1397129313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_21
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 472
+        width: 75
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c893e8a8d2da4d458904f8537b1dbe3
+      internalID: -1210567825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_22
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 464
+        width: 155
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b95aca97d41ba469150c2406db6acc
+      internalID: -30442609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_23
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 183
+        width: 128
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d948ee9ccfe190a41b04f367bf933bf3
+      internalID: 1477669579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_24
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 189
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f215e2bbbfeb9e94e8d2b5883ea2fc0f
+      internalID: 968410589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 261
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658be255c89ab3c45a1a9ec3f164be0c
+      internalID: 807254364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_26
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 348
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cc3959fda801d4f8021e6ce9655a83
+      internalID: 100660925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_27
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 256
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ca0454b6e1ce46af2f2eb9c7065c7
+      internalID: 1550593971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_28
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 356
+        width: 47
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0422934c1349bac4a902d7e599f571e0
+      internalID: -142775966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_29
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 340
+        width: 102
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff6a6b5f521504c9500153cd83f8d7
+      internalID: 1112552069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_30
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 347
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8990b0fd6c4d8649afe4bde0e34d649
+      internalID: 1391328478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_31
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 356
+        width: 127
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e826a68a663fc4e9ee1bb0afea29cf
+      internalID: -938415456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_32
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 340
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301bdde10b9a7a64c9deaad004941d57
+      internalID: 1557277195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_33
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 257
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721cc525c82b93c45a06698a27ee23df
+      internalID: 1505295780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_34
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 257
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5b3b879fe2ca458250ed39a4267d2
+      internalID: -327738704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_35
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 361
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd7dcdf4bf57e44fbbc6773110dea6d
+      internalID: 477927279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_36
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 131
+        width: 351
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a163e5e06a60fd4395efb4f2ec43fc8
+      internalID: -358587691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_37
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 268
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ac322eb0c45794bb9d1856cb2a47af
+      internalID: 2047317915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_38
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 120
+        width: 205
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8914cfcd14b27419ad95eab736eb30
+      internalID: -624894995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 252
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b16fd2a233d8844ea54214610e10361
+      internalID: 1877836488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_40
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 264
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466befeda53f0994e82c0e39a939f0f2
+      internalID: -859201150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 268
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eda46230b3727c4da9f56a2ec6585de
+      internalID: -161170079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_42
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 284
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be30ebff8f65194a95b5ed928324d1c
+      internalID: -1044935150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_43
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 266
+        width: 71
+        height: 77
+      alignment: 9
+      pivot: {x: 0.8747447, y: 0.283303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b310f4053af70439b5f94b88d1626e
+      internalID: -1471231661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_44
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 258
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdb9a726206c194d97fc38f97c5a565
+      internalID: -1782825146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_45
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 244
+        width: 136
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4350aeccdec4049b088f16a40ae267
+      internalID: 1719906925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_46
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 279
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3c0990f3b69e41a447e05891f9b38
+      internalID: -2022471601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_47
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 182
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374e91db6e851b84fa4e5e91540b6f03
+      internalID: 37691887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_48
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 185
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51044b66c7beb847842eb683abcff0a
+      internalID: 1281558008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_49
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 182
+        width: 119
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c93780f936c34ea2416880bc98e49
+      internalID: 285970643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_50
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 262
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d897cc493bcfece46ac66d113af41b01
+      internalID: 1536921287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_51
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 264
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7da6f9f4cbf8b46948da2253f2873b
+      internalID: -293201891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_52
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 188
+        width: 113
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1382fd6954ed341b834db506dcef45
+      internalID: -535802901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_53
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 189
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8288dc8afb55ab14b9090be6b83883db
+      internalID: -1612483173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_54
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 266
+        width: 67
+        height: 82
+      alignment: 9
+      pivot: {x: 0.91028196, y: 0.2829735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2969799e706a6468cf53eebb4454f4
+      internalID: -1747058960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06095bb78865d5b43a95505981e13488
+      internalID: 710125687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_56
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 261
+        width: 36
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bb31a239b292044a6ad15331a1eaa1
+      internalID: -750307829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_57
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 124
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a68ba3255b3604cb3c430f256dc6b2
+      internalID: 1687622975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_58
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 135
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b702daadc2a99468edee9b398d65e6
+      internalID: 1435561336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_59
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 140
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0253a082cf213be4ebdd21798ebc8966
+      internalID: 747104514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_60
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 134
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451a0ffb655e4b4aae40c9713f91e38
+      internalID: 2145188614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e689387f0e67a44da2a6db8f9bf12e0
+      internalID: 682231540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_62
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 79
+        width: 127
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d28c1972ce46ec4c8d3e636f499f67a
+      internalID: -376808043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_63
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 73
+        width: 343
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8197a43349acf22438e10ac6abd84b18
+      internalID: 656074761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_64
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 36
+        width: 262
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d893fb47273f85546b113b318d2e0658
+      internalID: 340789069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_65
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 44
+        width: 267
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf929ae6a49719489fe7a2e6fa3e82d
+      internalID: -1325665742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_66
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 44
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01406b24e52e7248a7fc0681a90925c
+      internalID: -986787562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_67
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 39
+        width: 172
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73851db331608ef4a8d53d26aee49796
+      internalID: 1608693664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_68
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 29
+        width: 353
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19bca1cc7dbab04e9a3a6e1edcafe66
+      internalID: 1498965986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 980
+        width: 434
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1dd3506cc98d84989694a42b525594
+      internalID: 1823818006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_69
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 803
+        width: 39
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9afa6ba811ecd449abc3dbb8d8e992
+      internalID: 587849403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_70
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 783
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5cf71486c93d24ab3c55156e6bdaa7
+      internalID: -1821750311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_71
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 599
+        width: 520
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4644004cacdc4f96f4675194bbe36
+      internalID: 526336435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_72
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 601
+        width: 61
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82153434831e84b438dd7e4f9b8f2ffc
+      internalID: 57253230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_73
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 602
+        width: 112
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6206ccd154394e044bd368abf74060a6
+      internalID: 164549408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_74
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 768
+        width: 139
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd860152b530a44b8ff15e08e68d0d1
+      internalID: -1278697324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_75
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 766
+        width: 32
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e92488593de48f4fbc8082fe59625a6
+      internalID: -335345108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_76
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 781
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04027a9e8dc3b294fbcea1e2b0529e24
+      internalID: -222563888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_77
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 747
+        width: 39
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd14cf5bc3168448c93ed2526e166f
+      internalID: -1464651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_78
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 720
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afd074d7de8a554e8c6b629bfc033e5
+      internalID: -411927264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_79
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 742
+        width: 27
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d50941a4ccf7b14583bb0fff97a0b42
+      internalID: -764930789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_80
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 983
+        width: 430
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f66bd666092bf40b733e46dcdda948
+      internalID: -70417897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_81
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 983
+        width: 425
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222820bf786a3bb47baaccaba16b0e6b
+      internalID: 638276940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_82
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 761
+        width: 121
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58dbf01aaa8fbc42902133f3bb2e970
+      internalID: 1389942136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_83
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 602
+        width: 151
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3665c1b8aaa8e4981c294bfdbfa687
+      internalID: 1862946417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_84
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 792
+        width: 39
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7e4d5b7f98d6846933f031e881bbcb
+      internalID: -14315787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_85
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 784
+        width: 98
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725ff1438185ed8469a61a748173e364
+      internalID: 568380741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_86
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 791
+        width: 106
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade8d19b4232ce438ac787840df08f2
+      internalID: -1171662289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_87
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 783
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1766d06ae1da934fa28ee4e075e4996
+      internalID: -134236536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 235
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: 218.5}
+        - {x: -118, y: -218.5}
+        - {x: 32, y: -218.5}
+        - {x: 32, y: -199.5}
+        - {x: 117, y: -199.5}
+        - {x: 118, y: 218.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca1b4e8a69f48e41a4d6df5b93a7ac6
+      internalID: -1629390733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_89
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 917
+        width: 46
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ac897da2d8bbe43bc713b459b828f4
+      internalID: 354090377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_90
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 778
+        width: 182
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6b9fd9f9291744f8e589803d34c1b4
+      internalID: -708134190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_91
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 781
+        width: 39
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edae6e64c4b32b7449072e1bd2c75002
+      internalID: -380083661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_92
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 597
+        width: 187
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e6d748e15bc0741b4e3169a4952ecc
+      internalID: 1248029023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af245042326474393a1c9a9f8e3152
+      internalID: 845876632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 565
+        width: 76
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53719c9f01e42db4da7edfd6c5748b0a
+      internalID: 571525340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_95
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 595
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3d427541fb82540b542503550063e0
+      internalID: -1899258910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_96
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 351
+        width: 55
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90220b919fe60844bbdf140a2d5d1baa
+      internalID: 1249942441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 273
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcfd005c17fc6843919be2412f2a0f8
+      internalID: 254826304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c905e79668eb4f829b3b234f979ba
+      internalID: -423846624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_99
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 134
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee7bb7479864346a8110bc63aea537
+      internalID: -160719836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 184
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713a33b6f6df4a4590faafe17889659
+      internalID: 336600719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_101
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 134
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f8bc6903f5a44dac636e7963181c2
+      internalID: 1716870431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_102
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 139
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d2aa193f8ee3c49964ff7217cc4c93
+      internalID: -497477521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_103
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 259
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc14007cadfe6c5449986ac8013100c5
+      internalID: -1832780670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_104
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 184
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca285e0aadedf24439a86850d8f6cd19
+      internalID: 1510725780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_105
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 250
+        width: 166
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6733df2fdf4ee641bba962ea2b8bd76
+      internalID: -414743961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_106
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 183
+        width: 166
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e40412f910f2394a87eda9f716b8cae
+      internalID: 272504892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_107
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 134
+        width: 137
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a73563f1ab6044796fe5e43e394b6f
+      internalID: -1628000691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_108
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 139
+        width: 103
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a53aaee891503a479eb3c5773fa1877
+      internalID: 2024063358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_109
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 186
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273bd955c28a45419f557fe070a3e4f
+      internalID: 1885277499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_110
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 186
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172ea3489cd04594a9785329b3024c41
+      internalID: 167255773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_111
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 256
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8996123a4c32974e96ec5292deeec47
+      internalID: 1532363116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_112
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 255
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241df9ca83612c545b50ced85e65aa3f
+      internalID: 591041894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_113
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 254
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63b79b401d27ba4a894fc365a2062bf
+      internalID: -1944491301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_114
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 333
+        width: 335
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a798400bd44510438e8926fb672ba75
+      internalID: -520136248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_115
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 468
+        width: 78
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc188acdd95859a4b8b6eca38bb13066
+      internalID: -100784623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_116
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 597
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687979347a1a01945adad81fcaf0d7dc
+      internalID: 7480860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_117
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 188
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86ac6e91c129d4789e4bc8c241f464
+      internalID: -338561557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_118
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 183
+        width: 130
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973029cc841a35f4d925cf8724682d55
+      internalID: 1773491526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_119
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 189
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662f8232ef13e6f41a64e8c265112a57
+      internalID: -1949677141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_120
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 186
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa86fb118ffa5f48aef61b196a6218e
+      internalID: 578087951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_121
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 192
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21451cee547da3e41a93087ff048569c
+      internalID: -607050027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae9fdb6580e98b40b0e5e2ef76fa641
+      internalID: 1926036794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 79
+        width: 345
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49acc4e435f5c43a91cc79966cbebc
+      internalID: 718443446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_124
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 125
+        width: 107
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfec61ab003804478682c0aa8fe29c4
+      internalID: -901704753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_125
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 144
+        width: 108
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d300301bf15e92546b953d5e05af013b
+      internalID: -815194296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_126
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 87
+        width: 175
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e976330a782dfb46b5c622ecc93def1
+      internalID: 464610077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_127
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 48
+        width: 72
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea35ea21407814195c78ebe36718ff
+      internalID: -2131722914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_128
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 40
+        width: 125
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425332339672da48b93f95fd07293fa
+      internalID: -270276458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_129
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 83
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6845e1f26ceab3641a60d6069920fef5
+      internalID: 687766572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_130
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 40
+        width: 103
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8d10e684fd6a14daeb7da3425edc1e
+      internalID: -390733769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_131
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 46
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8809d0364b78147bf5d4067f320b89
+      internalID: 183969320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_132
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 52
+        width: 87
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fb81f3845040d42a95976b62b6f7f8
+      internalID: -1881538329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_133
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 19
+        width: 149
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1160c2caefe6ec74f810e471be255bb4
+      internalID: 627764291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_134
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 45
+        width: 264
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72711e655d10e2c418d51f19547a065b
+      internalID: -1560833106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_135
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 80
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46f8ba4e0998e94980bfce5ca35d8d9
+      internalID: 169681880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_136
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 82
+        width: 144
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbccc910431f12e48bc0932d76937351
+      internalID: 1232892908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_137
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 77
+        width: 187
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d5532650d0bfd45a1685955020f17d
+      internalID: 1559623383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_138
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 73
+        width: 289
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8270509442cc75e4aa1e790cd2824628
+      internalID: -1648433997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_139
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 474
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40926f19777cee9438f25399767987a5
+      internalID: 1171009651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_140
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 476
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f0536d8ef4212418c4cd5b3070ea8b
+      internalID: -138163702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_141
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 474
+        width: 45
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17254d14c39fa347971831113e604da
+      internalID: -851345667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_142
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 584
+        width: 69
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb3fb086cc916459eb1e1225d346a8
+      internalID: 2119838237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_143
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 584
+        width: 55
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f1d0a5b3a051a47978ed43960989e9
+      internalID: 1049945121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_144
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 597
+        width: 68
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efbf078028e6a4389b063f5205fa6a
+      internalID: -604043128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_145
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 722
+        width: 110
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d08e6baee8c0c948b250bde8736c2f1
+      internalID: 749101118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_146
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 726
+        width: 70
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b94508a10a7b1244be328394c1c60d7
+      internalID: 1840987797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: one
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 956
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f69f3620c05544baf74b6e73ef8704
+      internalID: 1061700249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_148
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1032
+        width: 36
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6fe2a509decd545aa9be20d3d54a31
+      internalID: -1197374912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_149
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1001
+        width: 83
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad88039abab9341b057e3055145405
+      internalID: 2027636611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_150
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 613
+        width: 71
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadc6360a3ca3cf4d991d13f81d6739f
+      internalID: 890765945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_151
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 606
+        width: 166
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33173c420756a674e9d2b00403a62e36
+      internalID: -82521007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_152
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 759
+        width: 195
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094825151fca97a48a8505ef074ec8ee
+      internalID: -986804303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_153
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 589
+        width: 131
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2301bb8af87b89a48952a5015a7d6303
+      internalID: -1834716768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_154
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 592
+        width: 123
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973e4f4b4b8d20f49a6c98bb1add29f6
+      internalID: 783204805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_155
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 468
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bcd670f59341a45ab6033498e2a6ba
+      internalID: 757937882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_156
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 467
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5479c4fa61e4e4bb5ade1f45d0838d
+      internalID: 631399013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_157
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 461
+        width: 107
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8e96af7160aa643bb2fbaf5f33bea4
+      internalID: -1202442792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_158
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 353
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3bbfa163851fe419e744d6b196342b
+      internalID: -274577173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_159
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 348
+        width: 112
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4155cce9b234d44d829ca3e198aeb37
+      internalID: 1221944859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_160
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 458
+        width: 306
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098805e3085fb24469aac0e8e3254698
+      internalID: -1766562448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_161
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 136
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc90986f3c96314cb2e0e31cdad5a9f
+      internalID: -139563503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_162
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 136
+        width: 204
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3b3357d68967b439a58e70bee93020
+      internalID: 1368782483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_163
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 44
+        width: 349
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa803d3e16195d4ab0de5742ca2279b
+      internalID: -871669947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_147
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 83
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd3988cf707854459cee7dc2d4494ec
+      internalID: 77318096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_164
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 944
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cbf4ad7b73742469cef7f4db501296
+      internalID: -1688859648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_165
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 495
+        width: 33
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa20b0e99595b2240937930a30daf61f
+      internalID: 8095840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_166
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 89
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a8cd6d94c664349a2b7571f52dabda
+      internalID: 205345315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_167
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 669
+        width: 33
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65da8805c4cd76249baea514efd256e2
+      internalID: 751636041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_168
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 772
+        width: 31
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e0dac8a9e14e47b2802ed09eda197
+      internalID: -1108596373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_169
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 393
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee47a0b35c60f3458d8cb2b77cfaeac
+      internalID: 22773552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Zombie Tsunami - Cars_170
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1001
+        width: 205
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308792f8611948441a1a2a8d3aa75bf5
+      internalID: 488955279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Zombie Tsunami - Cars_1: 478670710
+      Mobile - Zombie Tsunami - Cars_20: -1397129313
+      Mobile - Zombie Tsunami - Cars_83: 1862946417
+      Mobile - Zombie Tsunami - Cars_100: 336600719
+      Mobile - Zombie Tsunami - Cars_158: -1202442792
+      Mobile - Zombie Tsunami - Cars_65: -1325665742
+      Mobile - Zombie Tsunami - Cars_9: -808458119
+      Mobile - Zombie Tsunami - Cars_36: -358587691
+      Mobile - Zombie Tsunami - Cars_21: -1210567825
+      Mobile - Zombie Tsunami - Cars_73: 164549408
+      Mobile - Zombie Tsunami - Cars_2: 1221725749
+      Mobile - Zombie Tsunami - Cars_166: 205345315
+      Mobile - Zombie Tsunami - Cars_44: -1782825146
+      Mobile - Zombie Tsunami - Cars_62: -376808043
+      Mobile - Zombie Tsunami - Cars_58: 1435561336
+      Mobile - Zombie Tsunami - Cars_85: 568380741
+      Mobile - Zombie Tsunami - Cars_117: -915490563
+      Mobile - Zombie Tsunami - Cars_113: -1944491301
+      Mobile - Zombie Tsunami - Cars_24: 968410589
+      Mobile - Zombie Tsunami - Cars_129: -270276458
+      Mobile - Zombie Tsunami - Cars_12: -1490518189
+      Mobile - Zombie Tsunami - Cars_127: 464610077
+      Mobile - Zombie Tsunami - Cars_16: -332659554
+      Mobile - Zombie Tsunami - Cars_30: 1391328478
+      Mobile - Zombie Tsunami - Cars_167: 751636041
+      Mobile - Zombie Tsunami - Cars_112: 591041894
+      Mobile - Zombie Tsunami - Cars_103: -1832780670
+      Mobile - Zombie Tsunami - Cars_23: 1477669579
+      Mobile - Zombie Tsunami - Cars_4: -237755138
+      Mobile - Zombie Tsunami - Cars_60: 2145188614
+      Mobile - Zombie Tsunami - Cars_66: -986787562
+      Mobile - Zombie Tsunami - Cars_119: 1773491526
+      Mobile - Zombie Tsunami - Cars_164: -1688859648
+      one: 1061700249
+      Mobile - Zombie Tsunami - Cars_106: 272504892
+      Mobile - Zombie Tsunami - Cars_155: 783204805
+      Mobile - Zombie Tsunami - Cars_14: -1867468411
+      Mobile - Zombie Tsunami - Cars_95: -1899258910
+      Mobile - Zombie Tsunami - Cars_61: 682231540
+      Mobile - Zombie Tsunami - Cars_120: -1949677141
+      Mobile - Zombie Tsunami - Cars_111: 1532363116
+      Mobile - Zombie Tsunami - Cars_7: 1384229876
+      Mobile - Zombie Tsunami - Cars_41: -161170079
+      Mobile - Zombie Tsunami - Cars_152: -403786475
+      Mobile - Zombie Tsunami - Cars_68: 1498965986
+      Mobile - Zombie Tsunami - Cars_69: 587849403
+      Mobile - Zombie Tsunami - Cars_10: -728334666
+      Mobile - Zombie Tsunami - Cars_90: -708134190
+      Mobile - Zombie Tsunami - Cars_118: -338561557
+      Mobile - Zombie Tsunami - Cars_141: -138163702
+      Mobile - Zombie Tsunami - Cars_107: -1628000691
+      Mobile - Zombie Tsunami - Cars_131: -390733769
+      Mobile - Zombie Tsunami - Cars_161: 1221944859
+      Mobile - Zombie Tsunami - Cars_93: 845876632
+      Mobile - Zombie Tsunami - Cars_137: 1232892908
+      Mobile - Zombie Tsunami - Cars_91: -380083661
+      Mobile - Zombie Tsunami - Cars_99: -160719836
+      Mobile - Zombie Tsunami - Cars_136: 169681880
+      Mobile - Zombie Tsunami - Cars_64: 340789069
+      Mobile - Zombie Tsunami - Cars_11: -234458468
+      Mobile - Zombie Tsunami - Cars_54: -1747058960
+      Mobile - Zombie Tsunami - Cars_94: 571525340
+      Mobile - Zombie Tsunami - Cars_105: -414743961
+      Mobile - Zombie Tsunami - Cars_146: 749101118
+      Mobile - Zombie Tsunami - Cars_169: 22773552
+      Mobile - Zombie Tsunami - Cars_139: -1648433997
+      Mobile - Zombie Tsunami - Cars_25: 807254364
+      Mobile - Zombie Tsunami - Cars_40: -859201150
+      Mobile - Zombie Tsunami - Cars_47: 37691887
+      Mobile - Zombie Tsunami - Cars_59: 747104514
+      Mobile - Zombie Tsunami - Cars_138: 1559623383
+      Mobile - Zombie Tsunami - Cars_75: -335345108
+      Mobile - Zombie Tsunami - Cars_151: -82521007
+      Mobile - Zombie Tsunami - Cars_8: 1047633763
+      Mobile - Zombie Tsunami - Cars_104: 1510725780
+      Mobile - Zombie Tsunami - Cars_143: 2119838237
+      Mobile - Zombie Tsunami - Cars_33: 1505295780
+      Mobile - Zombie Tsunami - Cars_72: 57253230
+      Mobile - Zombie Tsunami - Cars_0: 1042667426
+      Mobile - Zombie Tsunami - Cars_108: 2024063358
+      Mobile - Zombie Tsunami - Cars_150: 890765945
+      Mobile - Zombie Tsunami - Cars_122: -607050027
+      Mobile - Zombie Tsunami - Cars_74: -1278697324
+      Mobile - Zombie Tsunami - Cars_80: -70417897
+      Mobile - Zombie Tsunami - Cars_121: 578087951
+      Mobile - Zombie Tsunami - Cars_79: -764930789
+      Mobile - Zombie Tsunami - Cars_132: 183969320
+      Mobile - Zombie Tsunami - Cars_37: 2047317915
+      Mobile - Zombie Tsunami - Cars_45: 1719906925
+      Mobile - Zombie Tsunami - Cars_46: -2022471601
+      Mobile - Zombie Tsunami - Cars_3: -2079587152
+      Mobile - Zombie Tsunami - Cars_29: 1112552069
+      Mobile - Zombie Tsunami - Cars_13: 947032517
+      Mobile - Zombie Tsunami - Cars_110: 167255773
+      Mobile - Zombie Tsunami - Cars_89: 354090377
+      Mobile - Zombie Tsunami - Cars_57: 1687622975
+      Mobile - Zombie Tsunami - Cars_157: 631399013
+      Mobile - Zombie Tsunami - Cars_56: -750307829
+      Mobile - Zombie Tsunami - Cars_27: 1550593971
+      Mobile - Zombie Tsunami - Cars_124: 718443446
+      Mobile - Zombie Tsunami - Cars_128: -2131722914
+      Mobile - Zombie Tsunami - Cars_42: -1044935150
+      Mobile - Zombie Tsunami - Cars_144: 1049945121
+      Mobile - Zombie Tsunami - Cars_5: 757631841
+      Mobile - Zombie Tsunami - Cars_19: 560951649
+      Mobile - Zombie Tsunami - Cars_92: 1248029023
+      Mobile - Zombie Tsunami - Cars_34: -327738704
+      Mobile - Zombie Tsunami - Cars_114: -520136248
+      Mobile - Zombie Tsunami - Cars_52: -535802901
+      Mobile - Zombie Tsunami - Cars_76: -222563888
+      Mobile - Zombie Tsunami - Cars_38: -624894995
+      Mobile - Zombie Tsunami - Cars_32: 1557277195
+      Mobile - Zombie Tsunami - Cars_149: -1197374912
+      Mobile - Zombie Tsunami - Cars_63: 656074761
+      Mobile - Zombie Tsunami - Cars_55: 710125687
+      Mobile - Zombie Tsunami - Cars_130: 687766572
+      Mobile - Zombie Tsunami - Cars_87: -134236536
+      Mobile - Zombie Tsunami - Cars_156: 757937882
+      Mobile - Zombie Tsunami - Cars_53: -1612483173
+      Mobile - Zombie Tsunami - Cars_77: -1464651
+      Mobile - Zombie Tsunami - Cars_71: 526336435
+      Mobile - Zombie Tsunami - Cars_6: 1213371791
+      Mobile - Zombie Tsunami - Cars_28: -142775966
+      Mobile - Zombie Tsunami - Cars_123: 1926036794
+      Mobile - Zombie Tsunami - Cars_82: 1389942136
+      Mobile - Zombie Tsunami - Cars_160: -274577173
+      Mobile - Zombie Tsunami - Cars_49: 285970643
+      Mobile - Zombie Tsunami - Cars_134: 627764291
+      Mobile - Zombie Tsunami - Cars_31: -938415456
+      Mobile - Zombie Tsunami - Cars_126: -815194296
+      Mobile - Zombie Tsunami - Cars_35: 477927279
+      Mobile - Zombie Tsunami - Cars_88: -1629390733
+      Mobile - Zombie Tsunami - Cars_147: 77318096
+      Mobile - Zombie Tsunami - Cars_97: 254826304
+      Mobile - Zombie Tsunami - Cars_17: 1851295666
+      Mobile - Zombie Tsunami - Cars_48: 1281558008
+      Mobile - Zombie Tsunami - Cars_101: 1716870431
+      Mobile - Zombie Tsunami - Cars_140: 1171009651
+      Mobile - Zombie Tsunami - Cars_50: 1536921287
+      Mobile - Zombie Tsunami - Cars_22: -30442609
+      Mobile - Zombie Tsunami - Cars_39: 1877836488
+      Mobile - Zombie Tsunami - Cars_96: 1249942441
+      Mobile - Zombie Tsunami - Cars_168: -1108596373
+      Mobile - Zombie Tsunami - Cars_115: -100784623
+      Mobile - Zombie Tsunami - Cars_159: -1678249889
+      Mobile - Zombie Tsunami - Cars_102: -497477521
+      Mobile - Zombie Tsunami - Cars_51: -293201891
+      Mobile - Zombie Tsunami - Cars_148: 1061700249
+      Mobile - Zombie Tsunami - Cars_165: 8095840
+      Mobile - Zombie Tsunami - Cars_81: 638276940
+      Mobile - Zombie Tsunami - Cars_67: 1608693664
+      Mobile - Zombie Tsunami - Cars_142: -851345667
+      Mobile - Zombie Tsunami - Cars_163: -871669947
+      Mobile - Zombie Tsunami - Cars_153: -986804303
+      Mobile - Zombie Tsunami - Cars_15: -120344042
+      Mobile - Zombie Tsunami - Cars_70: -1821750311
+      Mobile - Zombie Tsunami - Cars_84: -14315787
+      Mobile - Zombie Tsunami - Cars_170: 488955279
+      Mobile - Zombie Tsunami - Cars_116: 7480860
+      Mobile - Zombie Tsunami - Cars_154: -1834716768
+      Mobile - Zombie Tsunami - Cars_109: 1885277499
+      Mobile - Zombie Tsunami - Cars_98: -423846624
+      Mobile - Zombie Tsunami - Cars_145: -604043128
+      Mobile - Zombie Tsunami - Cars_43: -1471231661
+      Mobile - Zombie Tsunami - Cars_18: 1823818006
+      Mobile - Zombie Tsunami - Cars_162: -1766562448
+      Mobile - Zombie Tsunami - Cars_78: -411927264
+      Mobile - Zombie Tsunami - Cars_135: -1560833106
+      Mobile - Zombie Tsunami - Cars_133: -1881538329
+      Mobile - Zombie Tsunami - Cars_86: -1171662289
+      Mobile - Zombie Tsunami - Cars_125: -901704753
+      Mobile - Zombie Tsunami - Cars_26: 100660925
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

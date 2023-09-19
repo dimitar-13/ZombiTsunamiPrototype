@@ -1,0 +1,30 @@
+using System;
+using UnityEngine;
+using Assets.Scripts.Core;
+
+namespace ZombieTsunami.Enviroment
+{
+    public class EnviromentMovementScript : MonoBehaviour
+    {
+        [SerializeField]
+        private float movementSpeed = 5f;
+        public Action OnGroundDeleted;
+
+
+        // Update is called once per frame
+        void Update()
+        {
+            DeleteGround();
+            this.gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, new Vector3(Constants.DESTROY_X_POSSITION, this.transform.position.y), movementSpeed * Time.deltaTime);
+        }
+
+        private void DeleteGround()
+        {
+            if (this.gameObject.transform.position.x == Constants.DESTROY_X_POSSITION)
+            {
+                Destroy(gameObject);
+                OnGroundDeleted?.Invoke();
+            }
+        }
+    }
+}

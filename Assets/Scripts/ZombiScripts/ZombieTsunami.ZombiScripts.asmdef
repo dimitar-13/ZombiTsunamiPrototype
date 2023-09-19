@@ -1,0 +1,16 @@
+{
+    "name": "ZombieTsunami.ZombiScripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:199eb6c5416caac4f9d7012daa40ae84"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

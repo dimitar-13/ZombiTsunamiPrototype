@@ -1,21 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Scripts.Core;
 
-public class ZombieDespawner : MonoBehaviour
+namespace ZombieTsunami.ZombiScripts
 {
-    [SerializeField]
-    public ZombiManager zombiManager;
-
-    private void Start()
+    public class ZombieDespawner : MonoBehaviour
     {
-        Events.OnZombieKilled += DespawnZombie;
-    }
+        [SerializeField]
+        public ZombiManager zombiManager;
 
-    public void DespawnZombie(Zombie zombie)
-    {
-        zombiManager.Zombies.Remove(zombie);
-        Destroy(zombie.gameObject);
-    }
+        private void Start()
+        {
+            Events.OnZombieKilled += DespawnZombie;
+        }
 
+        public void DespawnZombie(Zombie zombie)
+        {
+            zombiManager.Zombies.Remove(zombie);
+            Destroy(zombie.gameObject);
+        }
+
+    }
 }
